@@ -1,0 +1,3 @@
+[submodule "HRLAlgorithms/Submodules/LearnKit"]
+	path = HRLAlgorithms/Submodules/LearnKit
+	url = https://github.com/mattrajca/LearnKit.git
