@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B2DE8352A3C59F6E0A241D194228012 /* Pods-HRLAlgorithms_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F53E0D474DFF7FBE6DD2AC3CA025B05C /* Pods-HRLAlgorithms_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		201145D07F913622A737A74D283798B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		3FE80853A6AD48FA58273529FFF83816 /* HRLAlgorithms-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9973834338601A5A255C830F807F894 /* HRLAlgorithms-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7290E4431EAC743DB6A34FEEA966D023 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		BB47316E377D8525886F4FA9F81255EA /* Pods-HRLAlgorithms_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC5CA5B9D74916DBD18E819DC673FE1 /* Pods-HRLAlgorithms_Tests-dummy.m */; };
+		EE7507B667611985A55982AC6FEC4782 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F43E151F1D52B85A1067169537C0114A /* ReplaceMe.m */; };
+		F682DA714D4737C246897DE8A4AF7E3B /* HRLAlgorithms-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8439E72587F8B9C806283063FF9B59B7 /* HRLAlgorithms-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16243E4F99EB94CE0A76E2C9B3D35265 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07E7712749237BB3735DF84E03586870;
+			remoteInfo = HRLAlgorithms;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AAB69E426846D07F82ACAA6EFE025F4 /* Pods-HRLAlgorithms_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HRLAlgorithms_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0DAB08EA1D4DE3D54EC23D44E40C8512 /* HRLAlgorithms.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HRLAlgorithms.xcconfig; sourceTree = "<group>"; };
+		3740323CFD39061D5FE355F25B0CC79D /* Pods-HRLAlgorithms_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HRLAlgorithms_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		429F86605B6C6D08B2C58E2E76E2D421 /* HRLAlgorithms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HRLAlgorithms.framework; path = HRLAlgorithms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		589E3833698317F02DE40026163CD650 /* HRLAlgorithms.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HRLAlgorithms.modulemap; sourceTree = "<group>"; };
+		5FC5CA5B9D74916DBD18E819DC673FE1 /* Pods-HRLAlgorithms_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HRLAlgorithms_Tests-dummy.m"; sourceTree = "<group>"; };
+		630A9E36ABDC3114B69B8C1156DB87A8 /* Pods_HRLAlgorithms_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HRLAlgorithms_Tests.framework; path = "Pods-HRLAlgorithms_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8439E72587F8B9C806283063FF9B59B7 /* HRLAlgorithms-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HRLAlgorithms-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A638F1C13D019270469A044328B53A49 /* HRLAlgorithms-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HRLAlgorithms-prefix.pch"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC37CAA72B758E4FC69C6DFC2763FA1D /* Pods-HRLAlgorithms_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HRLAlgorithms_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC83F7741BFAE66E4EA71DF8CB7577EF /* Pods-HRLAlgorithms_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HRLAlgorithms_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E9973834338601A5A255C830F807F894 /* HRLAlgorithms-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HRLAlgorithms-umbrella.h"; sourceTree = "<group>"; };
+		EA2A151DEE1CF269EE497DA105C9FB75 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F01CCE3A596245CDFA99C2E5A31ECC3C /* Pods-HRLAlgorithms_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HRLAlgorithms_Tests-resources.sh"; sourceTree = "<group>"; };
+		F1B955E551733775BEFEC1C6EF9472CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F43E151F1D52B85A1067169537C0114A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		F53E0D474DFF7FBE6DD2AC3CA025B05C /* Pods-HRLAlgorithms_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HRLAlgorithms_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F6CB73844C9A5F6510717917E53D3473 /* Pods-HRLAlgorithms_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HRLAlgorithms_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F767F8F1D307C379735FB7D3E43424D1 /* Pods-HRLAlgorithms_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HRLAlgorithms_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2ABC0D100BA192B72415816FBB8C712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201145D07F913622A737A74D283798B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E7C5BD8B872C01018C0461F293F054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7290E4431EAC743DB6A34FEEA966D023 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08D6048DF184C60EC872E956A42F9E97 /* Pods-HRLAlgorithms_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EA2A151DEE1CF269EE497DA105C9FB75 /* Info.plist */,
+				F767F8F1D307C379735FB7D3E43424D1 /* Pods-HRLAlgorithms_Tests.modulemap */,
+				DC83F7741BFAE66E4EA71DF8CB7577EF /* Pods-HRLAlgorithms_Tests-acknowledgements.markdown */,
+				3740323CFD39061D5FE355F25B0CC79D /* Pods-HRLAlgorithms_Tests-acknowledgements.plist */,
+				5FC5CA5B9D74916DBD18E819DC673FE1 /* Pods-HRLAlgorithms_Tests-dummy.m */,
+				0AAB69E426846D07F82ACAA6EFE025F4 /* Pods-HRLAlgorithms_Tests-frameworks.sh */,
+				F01CCE3A596245CDFA99C2E5A31ECC3C /* Pods-HRLAlgorithms_Tests-resources.sh */,
+				F53E0D474DFF7FBE6DD2AC3CA025B05C /* Pods-HRLAlgorithms_Tests-umbrella.h */,
+				CC37CAA72B758E4FC69C6DFC2763FA1D /* Pods-HRLAlgorithms_Tests.debug.xcconfig */,
+				F6CB73844C9A5F6510717917E53D3473 /* Pods-HRLAlgorithms_Tests.release.xcconfig */,
+			);
+			name = "Pods-HRLAlgorithms_Tests";
+			path = "Target Support Files/Pods-HRLAlgorithms_Tests";
+			sourceTree = "<group>";
+		};
+		1087B2EE83FF7A07EC83460A9ECA3F82 /* HRLAlgorithms */ = {
+			isa = PBXGroup;
+			children = (
+				FBDCD678AE0DDA5381DDF05F48767EA4 /* HRLAlgorithms */,
+				D9BCF5A369020227F3B0042B62328A24 /* Support Files */,
+			);
+			name = HRLAlgorithms;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1194C16DF6649CFB07CC0A7598A49D6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				429F86605B6C6D08B2C58E2E76E2D421 /* HRLAlgorithms.framework */,
+				630A9E36ABDC3114B69B8C1156DB87A8 /* Pods_HRLAlgorithms_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F706DD7E394BA55808A251541FF08076 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1194C16DF6649CFB07CC0A7598A49D6F /* Products */,
+				B9EDFC0655B46F6D8975644AB4CBE2DE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B9EDFC0655B46F6D8975644AB4CBE2DE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				08D6048DF184C60EC872E956A42F9E97 /* Pods-HRLAlgorithms_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BBB5AA380A0FA3123EFF3B2972BF555C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F43E151F1D52B85A1067169537C0114A /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9BCF5A369020227F3B0042B62328A24 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				589E3833698317F02DE40026163CD650 /* HRLAlgorithms.modulemap */,
+				0DAB08EA1D4DE3D54EC23D44E40C8512 /* HRLAlgorithms.xcconfig */,
+				8439E72587F8B9C806283063FF9B59B7 /* HRLAlgorithms-dummy.m */,
+				A638F1C13D019270469A044328B53A49 /* HRLAlgorithms-prefix.pch */,
+				E9973834338601A5A255C830F807F894 /* HRLAlgorithms-umbrella.h */,
+				F1B955E551733775BEFEC1C6EF9472CC /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HRLAlgorithms";
+			sourceTree = "<group>";
+		};
+		F706DD7E394BA55808A251541FF08076 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1087B2EE83FF7A07EC83460A9ECA3F82 /* HRLAlgorithms */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FBDCD678AE0DDA5381DDF05F48767EA4 /* HRLAlgorithms */ = {
+			isa = PBXGroup;
+			children = (
+				BBB5AA380A0FA3123EFF3B2972BF555C /* Classes */,
+			);
+			name = HRLAlgorithms;
+			path = HRLAlgorithms;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		72CAE122CE25378485A2BDE57B7E610D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE80853A6AD48FA58273529FFF83816 /* HRLAlgorithms-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C46312540ADCA2576A21707555DCA5BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2DE8352A3C59F6E0A241D194228012 /* Pods-HRLAlgorithms_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07E7712749237BB3735DF84E03586870 /* HRLAlgorithms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90F7C597F987C28F9B13DC07E4E022EA /* Build configuration list for PBXNativeTarget "HRLAlgorithms" */;
+			buildPhases = (
+				1A9A259CE0A4ED0E852E77FD9B2892F2 /* Sources */,
+				A2ABC0D100BA192B72415816FBB8C712 /* Frameworks */,
+				72CAE122CE25378485A2BDE57B7E610D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HRLAlgorithms;
+			productName = HRLAlgorithms;
+			productReference = 429F86605B6C6D08B2C58E2E76E2D421 /* HRLAlgorithms.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6C5B67A15F67C1E266646A95419E8796 /* Pods-HRLAlgorithms_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0348292285C86A9DA31A95EB51121D75 /* Build configuration list for PBXNativeTarget "Pods-HRLAlgorithms_Tests" */;
+			buildPhases = (
+				59BF0D5777FD6B43D768E26721A83D9E /* Sources */,
+				F5E7C5BD8B872C01018C0461F293F054 /* Frameworks */,
+				C46312540ADCA2576A21707555DCA5BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B9D8AEF76A1ACF159C73FF74B45BA88 /* PBXTargetDependency */,
+			);
+			name = "Pods-HRLAlgorithms_Tests";
+			productName = "Pods-HRLAlgorithms_Tests";
+			productReference = 630A9E36ABDC3114B69B8C1156DB87A8 /* Pods_HRLAlgorithms_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1194C16DF6649CFB07CC0A7598A49D6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07E7712749237BB3735DF84E03586870 /* HRLAlgorithms */,
+				6C5B67A15F67C1E266646A95419E8796 /* Pods-HRLAlgorithms_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A9A259CE0A4ED0E852E77FD9B2892F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F682DA714D4737C246897DE8A4AF7E3B /* HRLAlgorithms-dummy.m in Sources */,
+				EE7507B667611985A55982AC6FEC4782 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BF0D5777FD6B43D768E26721A83D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB47316E377D8525886F4FA9F81255EA /* Pods-HRLAlgorithms_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B9D8AEF76A1ACF159C73FF74B45BA88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HRLAlgorithms;
+			target = 07E7712749237BB3735DF84E03586870 /* HRLAlgorithms */;
+			targetProxy = 16243E4F99EB94CE0A76E2C9B3D35265 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		102F616911DFB8B3E8B0D2536D633421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DAB08EA1D4DE3D54EC23D44E40C8512 /* HRLAlgorithms.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HRLAlgorithms/HRLAlgorithms-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HRLAlgorithms/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HRLAlgorithms/HRLAlgorithms.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HRLAlgorithms;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5C9B3AAD1148458FDB3EB06FD55DAB69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DAB08EA1D4DE3D54EC23D44E40C8512 /* HRLAlgorithms.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HRLAlgorithms/HRLAlgorithms-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HRLAlgorithms/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HRLAlgorithms/HRLAlgorithms.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HRLAlgorithms;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		892BE0D5417F349DABAD08A8BF05AA58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6CB73844C9A5F6510717917E53D3473 /* Pods-HRLAlgorithms_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HRLAlgorithms_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HRLAlgorithms_Tests/Pods-HRLAlgorithms_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HRLAlgorithms_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC8FDA7BDC5EBC44732EB64852B24F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC37CAA72B758E4FC69C6DFC2763FA1D /* Pods-HRLAlgorithms_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HRLAlgorithms_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HRLAlgorithms_Tests/Pods-HRLAlgorithms_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HRLAlgorithms_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0348292285C86A9DA31A95EB51121D75 /* Build configuration list for PBXNativeTarget "Pods-HRLAlgorithms_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8FDA7BDC5EBC44732EB64852B24F13 /* Debug */,
+				892BE0D5417F349DABAD08A8BF05AA58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90F7C597F987C28F9B13DC07E4E022EA /* Build configuration list for PBXNativeTarget "HRLAlgorithms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C9B3AAD1148458FDB3EB06FD55DAB69 /* Debug */,
+				102F616911DFB8B3E8B0D2536D633421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module HRLAlgorithms {
+  umbrella header "HRLAlgorithms-umbrella.h"
+
+  export *
+  module * { export * }
+}

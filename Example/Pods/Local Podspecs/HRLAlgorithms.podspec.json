@@ -1,0 +1,22 @@
+{
+  "name": "HRLAlgorithms",
+  "version": "0.1.0",
+  "summary": "Wrapper around LearnKit.",
+  "description": "Wrapper around [LearnKit](https://github.com/mattrajca/LearnKit) to easy its integration with Swift code.",
+  "homepage": "https://github.com/HeartRateLearning/HRLAlgorithms",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Enrique de la Torre": "indisoluble_dev@me.com"
+  },
+  "source": {
+    "git": "https://github.com/HeartRateLearning/HRLAlgorithms.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HRLAlgorithms/Classes/**/*"
+}

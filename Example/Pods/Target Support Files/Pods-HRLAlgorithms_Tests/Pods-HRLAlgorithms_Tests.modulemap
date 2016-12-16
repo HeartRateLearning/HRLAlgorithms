@@ -1,0 +1,6 @@
+framework module Pods_HRLAlgorithms_Tests {
+  umbrella header "Pods-HRLAlgorithms_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
