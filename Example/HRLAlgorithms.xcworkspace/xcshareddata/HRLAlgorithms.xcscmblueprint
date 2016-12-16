@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D4DA1B674193A8D47674C476926A93DAEBC0F8E4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D4DA1B674193A8D47674C476926A93DAEBC0F8E4" : 9223372036854775807,
+    "D64E46F2E6B636B167BB7426F4BFEDF223BDA10D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6639361B-DCA3-4EDC-AA96-86A149FDCC1C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D4DA1B674193A8D47674C476926A93DAEBC0F8E4" : "HRLAlgorithms\/",
+    "D64E46F2E6B636B167BB7426F4BFEDF223BDA10D" : "HRLAlgorithms\/HRLAlgorithms\/Submodules\/LearnKit\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HRLAlgorithms",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/HRLAlgorithms.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:HeartRateLearning\/HRLAlgorithms.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D4DA1B674193A8D47674C476926A93DAEBC0F8E4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mattrajca\/LearnKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D64E46F2E6B636B167BB7426F4BFEDF223BDA10D"
+    }
+  ]
+}

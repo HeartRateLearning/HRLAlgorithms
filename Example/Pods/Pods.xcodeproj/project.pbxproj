@@ -7,13 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0624C1FEE73337A9E67D7264A74243C1 /* LNKPredictor.h in Headers */ = {isa = PBXBuildFile; fileRef = 52496F8CA90241289CBEC8046BA69B68 /* LNKPredictor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A3933A7D10F49DC5FE49D71B2644BDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		0B2DE8352A3C59F6E0A241D194228012 /* Pods-HRLAlgorithms_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F53E0D474DFF7FBE6DD2AC3CA025B05C /* Pods-HRLAlgorithms_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		201145D07F913622A737A74D283798B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		3FE80853A6AD48FA58273529FFF83816 /* HRLAlgorithms-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9973834338601A5A255C830F807F894 /* HRLAlgorithms-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11FE8513C9D51A94C82FB3229B72476E /* LNKRegularizationConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDD5014D8C734F5C98C64B312E48452 /* LNKRegularizationConfiguration.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		16D0A615DF8745E36FE3D86127ECDAC7 /* LNKMatrixPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E38C17BCFCF8B170CBD86CD0BF4DEDB /* LNKMatrixPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AD57C047F7A7B169735F714C6A61905 /* LNKMemoryBufferManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 276F10152BE0FF079BC3122EAEECC528 /* LNKMemoryBufferManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		23B9223FB003177C31CEA52B1E16403F /* LNKTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B616A1D1B599108DF3E984C09B9DD3 /* LNKTypes.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		26574B1278EDEDCF163C9CFE1DA8484A /* LNKGoldenSectionSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 98229EFA9EAB483818822B91F4E4370D /* LNKGoldenSectionSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29020B4420BFB0ABE2D31D00649E1536 /* LNKCSVColumnRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F5700BC746DDB5E44C9084AA48B522 /* LNKCSVColumnRule.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2F5E5272B584C5AB1A7D0CFA621FEF4B /* LNKUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DF801D7CEA012B93C4B11EEB1F26EE0F /* LNKUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		30A48EE62DC345376173FA05524EE456 /* LNKOptimization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE438593BC2B77269BBFC05EECD6D48 /* LNKOptimization.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		322490CFB2078F6CFA97BA4FC3AC256E /* LNKFastObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 845B95EFBFE91B419EA9ECB9DE5F9D5E /* LNKFastObjects.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		326DBC3BF01D6572F9D4E6A83BAEF4D3 /* Replace-Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C78E01A1FA13D38FB56FCBEDECE510E /* Replace-Common.m */; };
+		363807CC984A75022934B4D8804B6575 /* LNKMatrixCSV.h in Headers */ = {isa = PBXBuildFile; fileRef = 48627647B263CAADE0DC6BBE882AC54E /* LNKMatrixCSV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		365804EBE64153A59A6BD2A55D1B40C8 /* fmincg.m in Sources */ = {isa = PBXBuildFile; fileRef = 20953A955CBEFDB06A787019BE854B86 /* fmincg.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3951A558F81756CF28FC2B6AC845384C /* arithmetic_ansi.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A1F87CFFCC9D22BF859F094B664FCD8 /* arithmetic_ansi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BAEF01B94804AF2EADD3B1519279AB6 /* LNKClasses.h in Headers */ = {isa = PBXBuildFile; fileRef = D28B7CF66FBEF46AF10CEAD508C2D54D /* LNKClasses.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BD02AB1603ED7CFD858F003A56C099D /* LNKMatrixPCA.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A5CD1B46F46D474048DBF9F6B87A45A /* LNKMatrixPCA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4944CC935D11C68FCF4831068620C3F5 /* LNKMatrixExporting.m in Sources */ = {isa = PBXBuildFile; fileRef = B54C5845B0AB4D5505A2E8F2A395BBC5 /* LNKMatrixExporting.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5495FE5A93D26C7F6F3AEFD94225FFDA /* LNKClassifierPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 819BAC745F0B59D7A100CE240E73CBF6 /* LNKClassifierPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BE3D239384856F2B7960DD51278EC4B /* LNKMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D7DB9C0901568D94C2D7FF9F0F86A0B /* LNKMatrix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62751B4B4702560BC1D8188384CFBCFD /* HRLAlgorithms-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AED0316699F2244C8658A09CBC41ACCB /* HRLAlgorithms-dummy.m */; };
+		6E4BCE7344C16AE024DE001272132ABD /* LNKTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = D34A32EAADB6213EE351FE61F333E5CD /* LNKTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7290E4431EAC743DB6A34FEEA966D023 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		76AE585BA4F125F3BFF18331F7D02BE1 /* LNKOptimizationAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = D35A6F5910BFF8C338C4759E3089E750 /* LNKOptimizationAlgorithm.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		76C4A2E963BDFF0DEF6F5953F9052AC4 /* LNKConfusionMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDBBE23E92B4A7FDBA96DF438E078AC /* LNKConfusionMatrix.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		77124DBD5A4DCD928D4BF7B914816D4E /* _LNKKNNClassifierAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B367C0E5905FA3A9F8F3BDDF106605 /* _LNKKNNClassifierAC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7C9A15B4053CADCF4CAD43116D3D2F58 /* LNKFastObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = BB9DE09FD75DAE7A0BE79743D37DBC56 /* LNKFastObjects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EB708DB6CB80161234B4D15F544E853 /* lbfgs.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F7B7B0D069F5D8667EBAFF981CC425 /* lbfgs.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		80C190DC5D71A0FBE4EAC14659B033C8 /* arithmetic_sse_float.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DF9DFA2EE621931FFE3086197476082 /* arithmetic_sse_float.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AECA1922C6DB776A185A5AB8EA53957 /* LNKKNNClassifier.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCA1ECCF1775D136D6CACC5010DF883 /* LNKKNNClassifier.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8D72ECA859A82242512ED139C2E9E28E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F19094963414C1FEE84A07517343EC /* ReplaceMe.m */; };
+		8F4623B7E9BD74FFC781374291BCD019 /* LNKOptimization.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F56AEDE10BA53C594A67FC7DCAA3F1 /* LNKOptimization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		908A2D3A7D4CD46B5DEA2DB3127FAE01 /* LNKAccelerate.h in Headers */ = {isa = PBXBuildFile; fileRef = D99B4DAF5B87121FA9EE660862EE4AEA /* LNKAccelerate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97AE2724FED433721AF65F9F67DDB121 /* LNKPredictor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C04CC4D03302962E9C76484417A07FE /* LNKPredictor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9868F8561DD1953FAFA59F16D4DA241F /* LNKRegularizationConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = EC1C78A26CF671CCC98A356E25BCDD64 /* LNKRegularizationConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98E3ED123BADE700E6DE5CD2DEF770EC /* LNKMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 792FD41014EDA44263AD4FD7862AD4F5 /* LNKMatrix.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9C33572261CA0EF40F428C342AD368D4 /* LNKKNNClassifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A189328336D8A7802FCF2D469ACA718 /* LNKKNNClassifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C5C0E902E31D1664184AAC2CE9C432A /* LNKClasses.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B11433FF0145E8154E31C5D097AB6C /* LNKClasses.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9F42ED45BA6FFF5B90A048934808E64C /* LNKConfusionMatrixPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 03838E46F4D5A37110704177E54A8632 /* LNKConfusionMatrixPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2D30B228B9241EEFD9FA19FE35B5AA6 /* LNKFastFloatQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9939CCB92363BF7B605868AFF9340DBF /* LNKFastFloatQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A3ECBA6CCDBA53D50EEB3EBC4B0B9793 /* LNKAccelerate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D55756CA63098BD95804D711EAF9851 /* LNKAccelerate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A7CBEBC1764766FBEB85BF5949216EF3 /* LNKAccelerateGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B2014F84054DCFEB8D4D764B3DF95E /* LNKAccelerateGradient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B13333CE0449D72C4BE2E6B1DC523DAB /* LNKOptimizationAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FB359FF5C71E09C0E187ED7BE958D7 /* LNKOptimizationAlgorithm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3EFCBC6B91D4C421CC60438F34D833F /* LNKMatrixPCA.m in Sources */ = {isa = PBXBuildFile; fileRef = 3040A7F128AEA1C9AC7A10A1C4B8AF9B /* LNKMatrixPCA.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B763EADFABA3ECDB28405FF613E3AA97 /* LNKClassifier.m in Sources */ = {isa = PBXBuildFile; fileRef = C87F0BEBAB2D523F2267D534D7075174 /* LNKClassifier.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BB47316E377D8525886F4FA9F81255EA /* Pods-HRLAlgorithms_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC5CA5B9D74916DBD18E819DC673FE1 /* Pods-HRLAlgorithms_Tests-dummy.m */; };
-		EE7507B667611985A55982AC6FEC4782 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F43E151F1D52B85A1067169537C0114A /* ReplaceMe.m */; };
-		F682DA714D4737C246897DE8A4AF7E3B /* HRLAlgorithms-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8439E72587F8B9C806283063FF9B59B7 /* HRLAlgorithms-dummy.m */; };
+		BF195828180A134DF4BD7F35E3A1C7F7 /* LNKUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DADB04A1C04C1CE238EE331EB04FEBE /* LNKUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF95E3F9A9E0D572134FBB465606F281 /* LNKCSVColumnRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FFAA5695EED771B34560A35398A95A0 /* LNKCSVColumnRule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C391DB17568EED46330D3FB4DDC810FF /* HRLAlgorithms-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0303C7362474572D1739FDFC7D7562F6 /* HRLAlgorithms-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C48373EF92809E13AE6B1E510A52618D /* Config.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DA800217C112CA9A1D61323E95AF202 /* Config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5D7F9DFE1D0A5DFD7FF644636C69757 /* LNKMemoryBufferManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B15539EF659F20B851A1669EFC391D4 /* LNKMemoryBufferManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5F32F116771F0307D05E38D248C9DFD /* LNKFastFloatQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = D22A9ED19143AD37F159D46A81E44147 /* LNKFastFloatQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA7A5453554BB1AACDA72653CB162211 /* LNKPredictorPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 80110993C53415A3E920A95F855DE241 /* LNKPredictorPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCAAF0EECF542D3816B31DCC225E7E79 /* LNKGoldenSectionSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8E240136F9E484EE7836D32406F492 /* LNKGoldenSectionSearch.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D00B75B5236708FB1C87F729E951BEAF /* fmincg.h in Headers */ = {isa = PBXBuildFile; fileRef = CA44FEFE41DA091A610A6E1E4A514ABD /* fmincg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4712C500568562A16E1C89D2B59EF22 /* lbfgs.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CBEE3F5D291188715E7F100BA660B2D /* lbfgs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6023B2E9A33C3BCE4E522103CA1398C /* _LNKKNNClassifierAC.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF7BADB9780435E2C9605E6EEEA2421 /* _LNKKNNClassifierAC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6CBCE8BCF68D01681C8028DE06C3630 /* LNKConfusionMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 32D00698D059A7E7B78A558D9F338222 /* LNKConfusionMatrix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8AEEA4A91872A23A9C77DFE97F6C075 /* LNKClassifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 16D0D869B042E743B1824C3D0F1935CB /* LNKClassifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAD39B9FEB337FCDF353D60A3245805E /* LNKMatrixExporting.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD9897751752C3444B62BB0100EB6BF /* LNKMatrixExporting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD72C48303D7E5CC07B751F8DE50857D /* LNKHillClimbingSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = AF70B7CCEB6A6B19B681AE9E119C7B59 /* LNKHillClimbingSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDF9B479D05E308F78C9330B4D8C8744 /* LNKHillClimbingSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0452E64E097578112202E8F881F29D /* LNKHillClimbingSearch.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F13291B135FACDFE9F510F9785D50B68 /* LNKMatrixCSV.m in Sources */ = {isa = PBXBuildFile; fileRef = E95883BD3901691D4C86D46846293F3A /* LNKMatrixCSV.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F1A7D629403B9DE8633FEBCB53570300 /* LNKAccelerateGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 862D0BE6B6CE5B30FE0610CC7A9D7746 /* LNKAccelerateGradient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEBE8AF7F03D7110D2A06F2130143DE2 /* arithmetic_sse_double.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFC77AD91F82B7443BC94AF86BC755A /* arithmetic_sse_double.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,41 +80,100 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 07E7712749237BB3735DF84E03586870;
+			remoteGlobalIDString = 40CA43A97276793E932C35666A84042E;
 			remoteInfo = HRLAlgorithms;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0303C7362474572D1739FDFC7D7562F6 /* HRLAlgorithms-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HRLAlgorithms-umbrella.h"; sourceTree = "<group>"; };
+		03838E46F4D5A37110704177E54A8632 /* LNKConfusionMatrixPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKConfusionMatrixPrivate.h; sourceTree = "<group>"; };
 		0AAB69E426846D07F82ACAA6EFE025F4 /* Pods-HRLAlgorithms_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HRLAlgorithms_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		0DAB08EA1D4DE3D54EC23D44E40C8512 /* HRLAlgorithms.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HRLAlgorithms.xcconfig; sourceTree = "<group>"; };
+		16D0D869B042E743B1824C3D0F1935CB /* LNKClassifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKClassifier.h; sourceTree = "<group>"; };
+		19B11433FF0145E8154E31C5D097AB6C /* LNKClasses.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKClasses.m; sourceTree = "<group>"; };
+		1DA800217C112CA9A1D61323E95AF202 /* Config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		20953A955CBEFDB06A787019BE854B86 /* fmincg.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = fmincg.m; sourceTree = "<group>"; };
+		276F10152BE0FF079BC3122EAEECC528 /* LNKMemoryBufferManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKMemoryBufferManager.m; sourceTree = "<group>"; };
+		2A1F87CFFCC9D22BF859F094B664FCD8 /* arithmetic_ansi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = arithmetic_ansi.h; sourceTree = "<group>"; };
+		2B0B8CE790550F8A7861150E7135F740 /* HRLAlgorithms.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HRLAlgorithms.modulemap; sourceTree = "<group>"; };
+		2FFAA5695EED771B34560A35398A95A0 /* LNKCSVColumnRule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKCSVColumnRule.h; sourceTree = "<group>"; };
+		3040A7F128AEA1C9AC7A10A1C4B8AF9B /* LNKMatrixPCA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKMatrixPCA.m; sourceTree = "<group>"; };
+		32D00698D059A7E7B78A558D9F338222 /* LNKConfusionMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKConfusionMatrix.h; sourceTree = "<group>"; };
 		3740323CFD39061D5FE355F25B0CC79D /* Pods-HRLAlgorithms_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HRLAlgorithms_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3DADB04A1C04C1CE238EE331EB04FEBE /* LNKUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKUtilities.h; sourceTree = "<group>"; };
 		429F86605B6C6D08B2C58E2E76E2D421 /* HRLAlgorithms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HRLAlgorithms.framework; path = HRLAlgorithms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		589E3833698317F02DE40026163CD650 /* HRLAlgorithms.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HRLAlgorithms.modulemap; sourceTree = "<group>"; };
+		48627647B263CAADE0DC6BBE882AC54E /* LNKMatrixCSV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKMatrixCSV.h; sourceTree = "<group>"; };
+		4B15539EF659F20B851A1669EFC391D4 /* LNKMemoryBufferManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKMemoryBufferManager.h; sourceTree = "<group>"; };
+		4C78E01A1FA13D38FB56FCBEDECE510E /* Replace-Common.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Replace-Common.m"; sourceTree = "<group>"; };
+		4CBEE3F5D291188715E7F100BA660B2D /* lbfgs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lbfgs.h; sourceTree = "<group>"; };
+		52496F8CA90241289CBEC8046BA69B68 /* LNKPredictor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKPredictor.h; sourceTree = "<group>"; };
+		5DF9DFA2EE621931FFE3086197476082 /* arithmetic_sse_float.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = arithmetic_sse_float.h; sourceTree = "<group>"; };
 		5FC5CA5B9D74916DBD18E819DC673FE1 /* Pods-HRLAlgorithms_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HRLAlgorithms_Tests-dummy.m"; sourceTree = "<group>"; };
 		630A9E36ABDC3114B69B8C1156DB87A8 /* Pods_HRLAlgorithms_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HRLAlgorithms_Tests.framework; path = "Pods-HRLAlgorithms_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8439E72587F8B9C806283063FF9B59B7 /* HRLAlgorithms-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HRLAlgorithms-dummy.m"; sourceTree = "<group>"; };
+		63F5700BC746DDB5E44C9084AA48B522 /* LNKCSVColumnRule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKCSVColumnRule.m; sourceTree = "<group>"; };
+		6A0452E64E097578112202E8F881F29D /* LNKHillClimbingSearch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKHillClimbingSearch.m; sourceTree = "<group>"; };
+		6B8E240136F9E484EE7836D32406F492 /* LNKGoldenSectionSearch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKGoldenSectionSearch.m; sourceTree = "<group>"; };
+		6E38C17BCFCF8B170CBD86CD0BF4DEDB /* LNKMatrixPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKMatrixPrivate.h; sourceTree = "<group>"; };
+		73B616A1D1B599108DF3E984C09B9DD3 /* LNKTypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKTypes.m; sourceTree = "<group>"; };
+		73FB359FF5C71E09C0E187ED7BE958D7 /* LNKOptimizationAlgorithm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKOptimizationAlgorithm.h; sourceTree = "<group>"; };
+		792FD41014EDA44263AD4FD7862AD4F5 /* LNKMatrix.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKMatrix.m; sourceTree = "<group>"; };
+		79F7B7B0D069F5D8667EBAFF981CC425 /* lbfgs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = lbfgs.m; sourceTree = "<group>"; };
+		7A189328336D8A7802FCF2D469ACA718 /* LNKKNNClassifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKKNNClassifier.h; sourceTree = "<group>"; };
+		80110993C53415A3E920A95F855DE241 /* LNKPredictorPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKPredictorPrivate.h; sourceTree = "<group>"; };
+		819BAC745F0B59D7A100CE240E73CBF6 /* LNKClassifierPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKClassifierPrivate.h; sourceTree = "<group>"; };
+		845B95EFBFE91B419EA9ECB9DE5F9D5E /* LNKFastObjects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKFastObjects.m; sourceTree = "<group>"; };
+		84B367C0E5905FA3A9F8F3BDDF106605 /* _LNKKNNClassifierAC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = _LNKKNNClassifierAC.m; sourceTree = "<group>"; };
+		862D0BE6B6CE5B30FE0610CC7A9D7746 /* LNKAccelerateGradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKAccelerateGradient.h; sourceTree = "<group>"; };
+		8A5CD1B46F46D474048DBF9F6B87A45A /* LNKMatrixPCA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKMatrixPCA.h; sourceTree = "<group>"; };
+		8C04CC4D03302962E9C76484417A07FE /* LNKPredictor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKPredictor.m; sourceTree = "<group>"; };
+		8D55756CA63098BD95804D711EAF9851 /* LNKAccelerate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKAccelerate.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A638F1C13D019270469A044328B53A49 /* HRLAlgorithms-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HRLAlgorithms-prefix.pch"; sourceTree = "<group>"; };
+		98229EFA9EAB483818822B91F4E4370D /* LNKGoldenSectionSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKGoldenSectionSearch.h; sourceTree = "<group>"; };
+		9939CCB92363BF7B605868AFF9340DBF /* LNKFastFloatQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKFastFloatQueue.m; sourceTree = "<group>"; };
+		9BDD5014D8C734F5C98C64B312E48452 /* LNKRegularizationConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKRegularizationConfiguration.m; sourceTree = "<group>"; };
+		9BE438593BC2B77269BBFC05EECD6D48 /* LNKOptimization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKOptimization.m; sourceTree = "<group>"; };
+		9D7DB9C0901568D94C2D7FF9F0F86A0B /* LNKMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKMatrix.h; sourceTree = "<group>"; };
+		A3F56AEDE10BA53C594A67FC7DCAA3F1 /* LNKOptimization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKOptimization.h; sourceTree = "<group>"; };
+		A8B2014F84054DCFEB8D4D764B3DF95E /* LNKAccelerateGradient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKAccelerateGradient.m; sourceTree = "<group>"; };
+		ADCA1ECCF1775D136D6CACC5010DF883 /* LNKKNNClassifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKKNNClassifier.m; sourceTree = "<group>"; };
+		AED0316699F2244C8658A09CBC41ACCB /* HRLAlgorithms-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HRLAlgorithms-dummy.m"; sourceTree = "<group>"; };
+		AF70B7CCEB6A6B19B681AE9E119C7B59 /* LNKHillClimbingSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKHillClimbingSearch.h; sourceTree = "<group>"; };
+		AFDBBE23E92B4A7FDBA96DF438E078AC /* LNKConfusionMatrix.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKConfusionMatrix.m; sourceTree = "<group>"; };
+		B54C5845B0AB4D5505A2E8F2A395BBC5 /* LNKMatrixExporting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKMatrixExporting.m; sourceTree = "<group>"; };
+		BB9DE09FD75DAE7A0BE79743D37DBC56 /* LNKFastObjects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKFastObjects.h; sourceTree = "<group>"; };
+		C87F0BEBAB2D523F2267D534D7075174 /* LNKClassifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKClassifier.m; sourceTree = "<group>"; };
+		CA44FEFE41DA091A610A6E1E4A514ABD /* fmincg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = fmincg.h; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CBD9897751752C3444B62BB0100EB6BF /* LNKMatrixExporting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKMatrixExporting.h; sourceTree = "<group>"; };
 		CC37CAA72B758E4FC69C6DFC2763FA1D /* Pods-HRLAlgorithms_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HRLAlgorithms_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D22A9ED19143AD37F159D46A81E44147 /* LNKFastFloatQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKFastFloatQueue.h; sourceTree = "<group>"; };
+		D28B7CF66FBEF46AF10CEAD508C2D54D /* LNKClasses.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKClasses.h; sourceTree = "<group>"; };
+		D34A32EAADB6213EE351FE61F333E5CD /* LNKTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKTypes.h; sourceTree = "<group>"; };
+		D35A6F5910BFF8C338C4759E3089E750 /* LNKOptimizationAlgorithm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKOptimizationAlgorithm.m; sourceTree = "<group>"; };
+		D408790212545A25EB41D676693BC5DC /* HRLAlgorithms-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HRLAlgorithms-prefix.pch"; sourceTree = "<group>"; };
+		D764CC333C68062FFF92CBEAF2E2DBDC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D99B4DAF5B87121FA9EE660862EE4AEA /* LNKAccelerate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKAccelerate.h; sourceTree = "<group>"; };
+		D9F19094963414C1FEE84A07517343EC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		DBFC77AD91F82B7443BC94AF86BC755A /* arithmetic_sse_double.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = arithmetic_sse_double.h; sourceTree = "<group>"; };
 		DC83F7741BFAE66E4EA71DF8CB7577EF /* Pods-HRLAlgorithms_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HRLAlgorithms_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E9973834338601A5A255C830F807F894 /* HRLAlgorithms-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HRLAlgorithms-umbrella.h"; sourceTree = "<group>"; };
+		DF801D7CEA012B93C4B11EEB1F26EE0F /* LNKUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKUtilities.m; sourceTree = "<group>"; };
+		E95883BD3901691D4C86D46846293F3A /* LNKMatrixCSV.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKMatrixCSV.m; sourceTree = "<group>"; };
 		EA2A151DEE1CF269EE497DA105C9FB75 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1C78A26CF671CCC98A356E25BCDD64 /* LNKRegularizationConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKRegularizationConfiguration.h; sourceTree = "<group>"; };
 		F01CCE3A596245CDFA99C2E5A31ECC3C /* Pods-HRLAlgorithms_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HRLAlgorithms_Tests-resources.sh"; sourceTree = "<group>"; };
-		F1B955E551733775BEFEC1C6EF9472CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F43E151F1D52B85A1067169537C0114A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		F53E0D474DFF7FBE6DD2AC3CA025B05C /* Pods-HRLAlgorithms_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HRLAlgorithms_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F6CB73844C9A5F6510717917E53D3473 /* Pods-HRLAlgorithms_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HRLAlgorithms_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F767F8F1D307C379735FB7D3E43424D1 /* Pods-HRLAlgorithms_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HRLAlgorithms_Tests.modulemap"; sourceTree = "<group>"; };
+		FBF7BADB9780435E2C9605E6EEEA2421 /* _LNKKNNClassifierAC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = _LNKKNNClassifierAC.h; sourceTree = "<group>"; };
+		FE15C2163DBDCDD51267CFEB6F784586 /* HRLAlgorithms.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HRLAlgorithms.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A2ABC0D100BA192B72415816FBB8C712 /* Frameworks */ = {
+		A4F558E654BCE3EF7210D13E3CBF4AC6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				201145D07F913622A737A74D283798B7 /* Foundation.framework in Frameworks */,
+				0A3933A7D10F49DC5FE49D71B2644BDE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +188,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		034E5A15835B082817D2F5753FAA791F /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				2A1F87CFFCC9D22BF859F094B664FCD8 /* arithmetic_ansi.h */,
+				DBFC77AD91F82B7443BC94AF86BC755A /* arithmetic_sse_double.h */,
+				5DF9DFA2EE621931FFE3086197476082 /* arithmetic_sse_float.h */,
+				79F7B7B0D069F5D8667EBAFF981CC425 /* lbfgs.m */,
+			);
+			name = lib;
+			path = lib;
+			sourceTree = "<group>";
+		};
 		08D6048DF184C60EC872E956A42F9E97 /* Pods-HRLAlgorithms_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,16 +218,6 @@
 			path = "Target Support Files/Pods-HRLAlgorithms_Tests";
 			sourceTree = "<group>";
 		};
-		1087B2EE83FF7A07EC83460A9ECA3F82 /* HRLAlgorithms */ = {
-			isa = PBXGroup;
-			children = (
-				FBDCD678AE0DDA5381DDF05F48767EA4 /* HRLAlgorithms */,
-				D9BCF5A369020227F3B0042B62328A24 /* Support Files */,
-			);
-			name = HRLAlgorithms;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		1194C16DF6649CFB07CC0A7598A49D6F /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +225,95 @@
 				630A9E36ABDC3114B69B8C1156DB87A8 /* Pods_HRLAlgorithms_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		1785A2FB21C5E30BE704DACA78F30BC6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C13B0E02DC5822F5117C91FC16492295 /* HRLAlgorithms */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		1A1D3E727FC779ED503005C728FF6A99 /* Optimization */ = {
+			isa = PBXGroup;
+			children = (
+				98229EFA9EAB483818822B91F4E4370D /* LNKGoldenSectionSearch.h */,
+				6B8E240136F9E484EE7836D32406F492 /* LNKGoldenSectionSearch.m */,
+				AF70B7CCEB6A6B19B681AE9E119C7B59 /* LNKHillClimbingSearch.h */,
+				6A0452E64E097578112202E8F881F29D /* LNKHillClimbingSearch.m */,
+				A3F56AEDE10BA53C594A67FC7DCAA3F1 /* LNKOptimization.h */,
+				9BE438593BC2B77269BBFC05EECD6D48 /* LNKOptimization.m */,
+				73FB359FF5C71E09C0E187ED7BE958D7 /* LNKOptimizationAlgorithm.h */,
+				D35A6F5910BFF8C338C4759E3089E750 /* LNKOptimizationAlgorithm.m */,
+			);
+			name = Optimization;
+			path = Optimization;
+			sourceTree = "<group>";
+		};
+		2909D282D577CA71A0FA668DC70B71FE /* HRLAlgorithms */ = {
+			isa = PBXGroup;
+			children = (
+				EDB5A6669BC1FB7D55335E75DBD8E4AE /* Classes */,
+			);
+			name = HRLAlgorithms;
+			path = HRLAlgorithms;
+			sourceTree = "<group>";
+		};
+		3DFCC4D653753BCEBDB8C634658250DF /* LearnKit */ = {
+			isa = PBXGroup;
+			children = (
+				1785A2FB21C5E30BE704DACA78F30BC6 /* Common */,
+				81CF9093449851CB3EDFB93B353D55AF /* K-NN */,
+			);
+			name = LearnKit;
+			sourceTree = "<group>";
+		};
+		3E09A6767A653D69D59CCF8CCF47BEC8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4C78E01A1FA13D38FB56FCBEDECE510E /* Replace-Common.m */,
+			);
+			name = Common;
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4DFEF3866019B8A4F402C464418FF537 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C71C61F637DBA5FB5035CB0CF64D44E5 /* HRLAlgorithms */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4F02274F1D0F65B7B2385F39C2CA7E59 /* Accelerate Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D99B4DAF5B87121FA9EE660862EE4AEA /* LNKAccelerate.h */,
+				8D55756CA63098BD95804D711EAF9851 /* LNKAccelerate.m */,
+				862D0BE6B6CE5B30FE0610CC7A9D7746 /* LNKAccelerateGradient.h */,
+				A8B2014F84054DCFEB8D4D764B3DF95E /* LNKAccelerateGradient.m */,
+			);
+			name = "Accelerate Extensions";
+			path = "Accelerate Extensions";
+			sourceTree = "<group>";
+		};
+		58E7105F4C3A8788C82CED23FEA98C09 /* LearnKit */ = {
+			isa = PBXGroup;
+			children = (
+				7E64513D4481D128A480DE3F9F115C43 /* LearnKit */,
+			);
+			name = LearnKit;
+			path = LearnKit;
+			sourceTree = "<group>";
+		};
+		651BFD43519C4123EED07D38C7941882 /* Submodules */ = {
+			isa = PBXGroup;
+			children = (
+				AAC7BEFE398D43FDFDE372C188B8B8C1 /* LearnKit */,
+			);
+			name = Submodules;
+			path = Submodules;
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -119,11 +328,80 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				F706DD7E394BA55808A251541FF08076 /* Development Pods */,
+				4DFEF3866019B8A4F402C464418FF537 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				1194C16DF6649CFB07CC0A7598A49D6F /* Products */,
 				B9EDFC0655B46F6D8975644AB4CBE2DE /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7E64513D4481D128A480DE3F9F115C43 /* LearnKit */ = {
+			isa = PBXGroup;
+			children = (
+				D24FBAD1912B84DAE86911170A1CBB6B /* K-NN */,
+			);
+			name = LearnKit;
+			path = LearnKit;
+			sourceTree = "<group>";
+		};
+		81CF9093449851CB3EDFB93B353D55AF /* K-NN */ = {
+			isa = PBXGroup;
+			children = (
+				AB4F42F301F4E3A25056E548059C57CC /* HRLAlgorithms */,
+			);
+			name = "K-NN";
+			sourceTree = "<group>";
+		};
+		91457DFEE98CD1C24A5D207E7A0F8C66 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B0B8CE790550F8A7861150E7135F740 /* HRLAlgorithms.modulemap */,
+				FE15C2163DBDCDD51267CFEB6F784586 /* HRLAlgorithms.xcconfig */,
+				AED0316699F2244C8658A09CBC41ACCB /* HRLAlgorithms-dummy.m */,
+				D408790212545A25EB41D676693BC5DC /* HRLAlgorithms-prefix.pch */,
+				0303C7362474572D1739FDFC7D7562F6 /* HRLAlgorithms-umbrella.h */,
+				D764CC333C68062FFF92CBEAF2E2DBDC /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HRLAlgorithms";
+			sourceTree = "<group>";
+		};
+		AAC7BEFE398D43FDFDE372C188B8B8C1 /* LearnKit */ = {
+			isa = PBXGroup;
+			children = (
+				CEFF7CD75EC7BF4CB6AECC60DD494A0A /* fmincg */,
+				D4E840AE580685E8F8099FF04C54B26E /* LearnKit */,
+				B8E3678EE9FA10F8DA584C40AA4E3CB0 /* liblbfgs */,
+			);
+			name = LearnKit;
+			path = LearnKit;
+			sourceTree = "<group>";
+		};
+		AB4F42F301F4E3A25056E548059C57CC /* HRLAlgorithms */ = {
+			isa = PBXGroup;
+			children = (
+				D9D092CE8FFB6E8B15A4C6C937BA203A /* Submodules */,
+			);
+			name = HRLAlgorithms;
+			path = HRLAlgorithms;
+			sourceTree = "<group>";
+		};
+		ABFF585E69F608BA8F14EF256F01F0CF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EAE60B961E182E7B318360AF41B64974 /* HRLAlgorithms */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		B8E3678EE9FA10F8DA584C40AA4E3CB0 /* liblbfgs */ = {
+			isa = PBXGroup;
+			children = (
+				BE2CF8FFC482E3C106EF976DF391C227 /* include */,
+				034E5A15835B082817D2F5753FAA791F /* lib */,
+			);
+			name = liblbfgs;
+			path = liblbfgs;
 			sourceTree = "<group>";
 		};
 		B9EDFC0655B46F6D8975644AB4CBE2DE /* Targets Support Files */ = {
@@ -134,15 +412,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BBB5AA380A0FA3123EFF3B2972BF555C /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				F43E151F1D52B85A1067169537C0114A /* ReplaceMe.m */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,45 +420,206 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D9BCF5A369020227F3B0042B62328A24 /* Support Files */ = {
+		BC55D758B7A30C51B76D1EFC4022AF27 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				589E3833698317F02DE40026163CD650 /* HRLAlgorithms.modulemap */,
-				0DAB08EA1D4DE3D54EC23D44E40C8512 /* HRLAlgorithms.xcconfig */,
-				8439E72587F8B9C806283063FF9B59B7 /* HRLAlgorithms-dummy.m */,
-				A638F1C13D019270469A044328B53A49 /* HRLAlgorithms-prefix.pch */,
-				E9973834338601A5A255C830F807F894 /* HRLAlgorithms-umbrella.h */,
-				F1B955E551733775BEFEC1C6EF9472CC /* Info.plist */,
+				3E09A6767A653D69D59CCF8CCF47BEC8 /* Common */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HRLAlgorithms";
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		F706DD7E394BA55808A251541FF08076 /* Development Pods */ = {
+		BE2CF8FFC482E3C106EF976DF391C227 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				1087B2EE83FF7A07EC83460A9ECA3F82 /* HRLAlgorithms */,
+				4CBEE3F5D291188715E7F100BA660B2D /* lbfgs.h */,
 			);
-			name = "Development Pods";
+			name = include;
+			path = include;
 			sourceTree = "<group>";
 		};
-		FBDCD678AE0DDA5381DDF05F48767EA4 /* HRLAlgorithms */ = {
+		C13B0E02DC5822F5117C91FC16492295 /* HRLAlgorithms */ = {
 			isa = PBXGroup;
 			children = (
-				BBB5AA380A0FA3123EFF3B2972BF555C /* Classes */,
+				651BFD43519C4123EED07D38C7941882 /* Submodules */,
 			);
 			name = HRLAlgorithms;
 			path = HRLAlgorithms;
 			sourceTree = "<group>";
 		};
+		C71C61F637DBA5FB5035CB0CF64D44E5 /* HRLAlgorithms */ = {
+			isa = PBXGroup;
+			children = (
+				ABFF585E69F608BA8F14EF256F01F0CF /* Common */,
+				CDF0E9BA1BFCF4F928904D16CE9B2449 /* K-NN */,
+				3DFCC4D653753BCEBDB8C634658250DF /* LearnKit */,
+				91457DFEE98CD1C24A5D207E7A0F8C66 /* Support Files */,
+			);
+			name = HRLAlgorithms;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CDF0E9BA1BFCF4F928904D16CE9B2449 /* K-NN */ = {
+			isa = PBXGroup;
+			children = (
+				2909D282D577CA71A0FA668DC70B71FE /* HRLAlgorithms */,
+			);
+			name = "K-NN";
+			sourceTree = "<group>";
+		};
+		CE2481DBD6E64240FD71329605E8284D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D28B7CF66FBEF46AF10CEAD508C2D54D /* LNKClasses.h */,
+				19B11433FF0145E8154E31C5D097AB6C /* LNKClasses.m */,
+				16D0D869B042E743B1824C3D0F1935CB /* LNKClassifier.h */,
+				C87F0BEBAB2D523F2267D534D7075174 /* LNKClassifier.m */,
+				819BAC745F0B59D7A100CE240E73CBF6 /* LNKClassifierPrivate.h */,
+				32D00698D059A7E7B78A558D9F338222 /* LNKConfusionMatrix.h */,
+				AFDBBE23E92B4A7FDBA96DF438E078AC /* LNKConfusionMatrix.m */,
+				03838E46F4D5A37110704177E54A8632 /* LNKConfusionMatrixPrivate.h */,
+				2FFAA5695EED771B34560A35398A95A0 /* LNKCSVColumnRule.h */,
+				63F5700BC746DDB5E44C9084AA48B522 /* LNKCSVColumnRule.m */,
+				D22A9ED19143AD37F159D46A81E44147 /* LNKFastFloatQueue.h */,
+				9939CCB92363BF7B605868AFF9340DBF /* LNKFastFloatQueue.m */,
+				BB9DE09FD75DAE7A0BE79743D37DBC56 /* LNKFastObjects.h */,
+				845B95EFBFE91B419EA9ECB9DE5F9D5E /* LNKFastObjects.m */,
+				9D7DB9C0901568D94C2D7FF9F0F86A0B /* LNKMatrix.h */,
+				792FD41014EDA44263AD4FD7862AD4F5 /* LNKMatrix.m */,
+				48627647B263CAADE0DC6BBE882AC54E /* LNKMatrixCSV.h */,
+				E95883BD3901691D4C86D46846293F3A /* LNKMatrixCSV.m */,
+				CBD9897751752C3444B62BB0100EB6BF /* LNKMatrixExporting.h */,
+				B54C5845B0AB4D5505A2E8F2A395BBC5 /* LNKMatrixExporting.m */,
+				8A5CD1B46F46D474048DBF9F6B87A45A /* LNKMatrixPCA.h */,
+				3040A7F128AEA1C9AC7A10A1C4B8AF9B /* LNKMatrixPCA.m */,
+				6E38C17BCFCF8B170CBD86CD0BF4DEDB /* LNKMatrixPrivate.h */,
+				4B15539EF659F20B851A1669EFC391D4 /* LNKMemoryBufferManager.h */,
+				276F10152BE0FF079BC3122EAEECC528 /* LNKMemoryBufferManager.m */,
+				52496F8CA90241289CBEC8046BA69B68 /* LNKPredictor.h */,
+				8C04CC4D03302962E9C76484417A07FE /* LNKPredictor.m */,
+				80110993C53415A3E920A95F855DE241 /* LNKPredictorPrivate.h */,
+				EC1C78A26CF671CCC98A356E25BCDD64 /* LNKRegularizationConfiguration.h */,
+				9BDD5014D8C734F5C98C64B312E48452 /* LNKRegularizationConfiguration.m */,
+				D34A32EAADB6213EE351FE61F333E5CD /* LNKTypes.h */,
+				73B616A1D1B599108DF3E984C09B9DD3 /* LNKTypes.m */,
+				3DADB04A1C04C1CE238EE331EB04FEBE /* LNKUtilities.h */,
+				DF801D7CEA012B93C4B11EEB1F26EE0F /* LNKUtilities.m */,
+			);
+			name = Core;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CEFF7CD75EC7BF4CB6AECC60DD494A0A /* fmincg */ = {
+			isa = PBXGroup;
+			children = (
+				CA44FEFE41DA091A610A6E1E4A514ABD /* fmincg.h */,
+				20953A955CBEFDB06A787019BE854B86 /* fmincg.m */,
+			);
+			name = fmincg;
+			path = fmincg;
+			sourceTree = "<group>";
+		};
+		D24FBAD1912B84DAE86911170A1CBB6B /* K-NN */ = {
+			isa = PBXGroup;
+			children = (
+				FBF7BADB9780435E2C9605E6EEEA2421 /* _LNKKNNClassifierAC.h */,
+				84B367C0E5905FA3A9F8F3BDDF106605 /* _LNKKNNClassifierAC.m */,
+				7A189328336D8A7802FCF2D469ACA718 /* LNKKNNClassifier.h */,
+				ADCA1ECCF1775D136D6CACC5010DF883 /* LNKKNNClassifier.m */,
+			);
+			name = "K-NN";
+			path = "K-NN";
+			sourceTree = "<group>";
+		};
+		D4E840AE580685E8F8099FF04C54B26E /* LearnKit */ = {
+			isa = PBXGroup;
+			children = (
+				1DA800217C112CA9A1D61323E95AF202 /* Config.h */,
+				4F02274F1D0F65B7B2385F39C2CA7E59 /* Accelerate Extensions */,
+				CE2481DBD6E64240FD71329605E8284D /* Core */,
+				1A1D3E727FC779ED503005C728FF6A99 /* Optimization */,
+			);
+			name = LearnKit;
+			path = LearnKit;
+			sourceTree = "<group>";
+		};
+		D9D092CE8FFB6E8B15A4C6C937BA203A /* Submodules */ = {
+			isa = PBXGroup;
+			children = (
+				58E7105F4C3A8788C82CED23FEA98C09 /* LearnKit */,
+			);
+			name = Submodules;
+			path = Submodules;
+			sourceTree = "<group>";
+		};
+		DFBBC8C3155E8A21D34C6A5E4D374D29 /* K-NN */ = {
+			isa = PBXGroup;
+			children = (
+				D9F19094963414C1FEE84A07517343EC /* ReplaceMe.m */,
+			);
+			name = "K-NN";
+			path = "K-NN";
+			sourceTree = "<group>";
+		};
+		EAE60B961E182E7B318360AF41B64974 /* HRLAlgorithms */ = {
+			isa = PBXGroup;
+			children = (
+				BC55D758B7A30C51B76D1EFC4022AF27 /* Classes */,
+			);
+			name = HRLAlgorithms;
+			path = HRLAlgorithms;
+			sourceTree = "<group>";
+		};
+		EDB5A6669BC1FB7D55335E75DBD8E4AE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DFBBC8C3155E8A21D34C6A5E4D374D29 /* K-NN */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		72CAE122CE25378485A2BDE57B7E610D /* Headers */ = {
+		AE688D1AF3E3BDD477F9922D53C26E91 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FE80853A6AD48FA58273529FFF83816 /* HRLAlgorithms-umbrella.h in Headers */,
+				D6023B2E9A33C3BCE4E522103CA1398C /* _LNKKNNClassifierAC.h in Headers */,
+				3951A558F81756CF28FC2B6AC845384C /* arithmetic_ansi.h in Headers */,
+				FEBE8AF7F03D7110D2A06F2130143DE2 /* arithmetic_sse_double.h in Headers */,
+				80C190DC5D71A0FBE4EAC14659B033C8 /* arithmetic_sse_float.h in Headers */,
+				C48373EF92809E13AE6B1E510A52618D /* Config.h in Headers */,
+				D00B75B5236708FB1C87F729E951BEAF /* fmincg.h in Headers */,
+				C391DB17568EED46330D3FB4DDC810FF /* HRLAlgorithms-umbrella.h in Headers */,
+				D4712C500568562A16E1C89D2B59EF22 /* lbfgs.h in Headers */,
+				908A2D3A7D4CD46B5DEA2DB3127FAE01 /* LNKAccelerate.h in Headers */,
+				F1A7D629403B9DE8633FEBCB53570300 /* LNKAccelerateGradient.h in Headers */,
+				3BAEF01B94804AF2EADD3B1519279AB6 /* LNKClasses.h in Headers */,
+				D8AEEA4A91872A23A9C77DFE97F6C075 /* LNKClassifier.h in Headers */,
+				5495FE5A93D26C7F6F3AEFD94225FFDA /* LNKClassifierPrivate.h in Headers */,
+				D6CBCE8BCF68D01681C8028DE06C3630 /* LNKConfusionMatrix.h in Headers */,
+				9F42ED45BA6FFF5B90A048934808E64C /* LNKConfusionMatrixPrivate.h in Headers */,
+				BF95E3F9A9E0D572134FBB465606F281 /* LNKCSVColumnRule.h in Headers */,
+				C5F32F116771F0307D05E38D248C9DFD /* LNKFastFloatQueue.h in Headers */,
+				7C9A15B4053CADCF4CAD43116D3D2F58 /* LNKFastObjects.h in Headers */,
+				26574B1278EDEDCF163C9CFE1DA8484A /* LNKGoldenSectionSearch.h in Headers */,
+				DD72C48303D7E5CC07B751F8DE50857D /* LNKHillClimbingSearch.h in Headers */,
+				9C33572261CA0EF40F428C342AD368D4 /* LNKKNNClassifier.h in Headers */,
+				5BE3D239384856F2B7960DD51278EC4B /* LNKMatrix.h in Headers */,
+				363807CC984A75022934B4D8804B6575 /* LNKMatrixCSV.h in Headers */,
+				DAD39B9FEB337FCDF353D60A3245805E /* LNKMatrixExporting.h in Headers */,
+				3BD02AB1603ED7CFD858F003A56C099D /* LNKMatrixPCA.h in Headers */,
+				16D0A615DF8745E36FE3D86127ECDAC7 /* LNKMatrixPrivate.h in Headers */,
+				C5D7F9DFE1D0A5DFD7FF644636C69757 /* LNKMemoryBufferManager.h in Headers */,
+				8F4623B7E9BD74FFC781374291BCD019 /* LNKOptimization.h in Headers */,
+				B13333CE0449D72C4BE2E6B1DC523DAB /* LNKOptimizationAlgorithm.h in Headers */,
+				0624C1FEE73337A9E67D7264A74243C1 /* LNKPredictor.h in Headers */,
+				CA7A5453554BB1AACDA72653CB162211 /* LNKPredictorPrivate.h in Headers */,
+				9868F8561DD1953FAFA59F16D4DA241F /* LNKRegularizationConfiguration.h in Headers */,
+				6E4BCE7344C16AE024DE001272132ABD /* LNKTypes.h in Headers */,
+				BF195828180A134DF4BD7F35E3A1C7F7 /* LNKUtilities.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,13 +634,13 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		07E7712749237BB3735DF84E03586870 /* HRLAlgorithms */ = {
+		40CA43A97276793E932C35666A84042E /* HRLAlgorithms */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90F7C597F987C28F9B13DC07E4E022EA /* Build configuration list for PBXNativeTarget "HRLAlgorithms" */;
+			buildConfigurationList = 83CC933C8F3AA1F3BC1E4095BF0F1BFD /* Build configuration list for PBXNativeTarget "HRLAlgorithms" */;
 			buildPhases = (
-				1A9A259CE0A4ED0E852E77FD9B2892F2 /* Sources */,
-				A2ABC0D100BA192B72415816FBB8C712 /* Frameworks */,
-				72CAE122CE25378485A2BDE57B7E610D /* Headers */,
+				CCC96CDD086F0AE4C469FDEE068CBCDC /* Sources */,
+				A4F558E654BCE3EF7210D13E3CBF4AC6 /* Frameworks */,
+				AE688D1AF3E3BDD477F9922D53C26E91 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -260,27 +690,53 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				07E7712749237BB3735DF84E03586870 /* HRLAlgorithms */,
+				40CA43A97276793E932C35666A84042E /* HRLAlgorithms */,
 				6C5B67A15F67C1E266646A95419E8796 /* Pods-HRLAlgorithms_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1A9A259CE0A4ED0E852E77FD9B2892F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F682DA714D4737C246897DE8A4AF7E3B /* HRLAlgorithms-dummy.m in Sources */,
-				EE7507B667611985A55982AC6FEC4782 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		59BF0D5777FD6B43D768E26721A83D9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BB47316E377D8525886F4FA9F81255EA /* Pods-HRLAlgorithms_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC96CDD086F0AE4C469FDEE068CBCDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77124DBD5A4DCD928D4BF7B914816D4E /* _LNKKNNClassifierAC.m in Sources */,
+				365804EBE64153A59A6BD2A55D1B40C8 /* fmincg.m in Sources */,
+				62751B4B4702560BC1D8188384CFBCFD /* HRLAlgorithms-dummy.m in Sources */,
+				7EB708DB6CB80161234B4D15F544E853 /* lbfgs.m in Sources */,
+				A3ECBA6CCDBA53D50EEB3EBC4B0B9793 /* LNKAccelerate.m in Sources */,
+				A7CBEBC1764766FBEB85BF5949216EF3 /* LNKAccelerateGradient.m in Sources */,
+				9C5C0E902E31D1664184AAC2CE9C432A /* LNKClasses.m in Sources */,
+				B763EADFABA3ECDB28405FF613E3AA97 /* LNKClassifier.m in Sources */,
+				76C4A2E963BDFF0DEF6F5953F9052AC4 /* LNKConfusionMatrix.m in Sources */,
+				29020B4420BFB0ABE2D31D00649E1536 /* LNKCSVColumnRule.m in Sources */,
+				A2D30B228B9241EEFD9FA19FE35B5AA6 /* LNKFastFloatQueue.m in Sources */,
+				322490CFB2078F6CFA97BA4FC3AC256E /* LNKFastObjects.m in Sources */,
+				CCAAF0EECF542D3816B31DCC225E7E79 /* LNKGoldenSectionSearch.m in Sources */,
+				EDF9B479D05E308F78C9330B4D8C8744 /* LNKHillClimbingSearch.m in Sources */,
+				8AECA1922C6DB776A185A5AB8EA53957 /* LNKKNNClassifier.m in Sources */,
+				98E3ED123BADE700E6DE5CD2DEF770EC /* LNKMatrix.m in Sources */,
+				F13291B135FACDFE9F510F9785D50B68 /* LNKMatrixCSV.m in Sources */,
+				4944CC935D11C68FCF4831068620C3F5 /* LNKMatrixExporting.m in Sources */,
+				B3EFCBC6B91D4C421CC60438F34D833F /* LNKMatrixPCA.m in Sources */,
+				1AD57C047F7A7B169735F714C6A61905 /* LNKMemoryBufferManager.m in Sources */,
+				30A48EE62DC345376173FA05524EE456 /* LNKOptimization.m in Sources */,
+				76AE585BA4F125F3BFF18331F7D02BE1 /* LNKOptimizationAlgorithm.m in Sources */,
+				97AE2724FED433721AF65F9F67DDB121 /* LNKPredictor.m in Sources */,
+				11FE8513C9D51A94C82FB3229B72476E /* LNKRegularizationConfiguration.m in Sources */,
+				23B9223FB003177C31CEA52B1E16403F /* LNKTypes.m in Sources */,
+				2F5E5272B584C5AB1A7D0CFA621FEF4B /* LNKUtilities.m in Sources */,
+				326DBC3BF01D6572F9D4E6A83BAEF4D3 /* Replace-Common.m in Sources */,
+				8D72ECA859A82242512ED139C2E9E28E /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +746,7 @@
 		4B9D8AEF76A1ACF159C73FF74B45BA88 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HRLAlgorithms;
-			target = 07E7712749237BB3735DF84E03586870 /* HRLAlgorithms */;
+			target = 40CA43A97276793E932C35666A84042E /* HRLAlgorithms */;
 			targetProxy = 16243E4F99EB94CE0A76E2C9B3D35265 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -334,38 +790,9 @@
 			};
 			name = Release;
 		};
-		102F616911DFB8B3E8B0D2536D633421 /* Release */ = {
+		61202ABFEEAD6DB76B940C1BDE41EBC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DAB08EA1D4DE3D54EC23D44E40C8512 /* HRLAlgorithms.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HRLAlgorithms/HRLAlgorithms-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HRLAlgorithms/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HRLAlgorithms/HRLAlgorithms.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = HRLAlgorithms;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5C9B3AAD1148458FDB3EB06FD55DAB69 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DAB08EA1D4DE3D54EC23D44E40C8512 /* HRLAlgorithms.xcconfig */;
+			baseConfigurationReference = FE15C2163DBDCDD51267CFEB6F784586 /* HRLAlgorithms.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -417,6 +844,35 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_HRLAlgorithms_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B14E74BBAE61EF06B1F9CD94F4B23EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE15C2163DBDCDD51267CFEB6F784586 /* HRLAlgorithms.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HRLAlgorithms/HRLAlgorithms-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HRLAlgorithms/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HRLAlgorithms/HRLAlgorithms.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HRLAlgorithms;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -521,11 +977,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90F7C597F987C28F9B13DC07E4E022EA /* Build configuration list for PBXNativeTarget "HRLAlgorithms" */ = {
+		83CC933C8F3AA1F3BC1E4095BF0F1BFD /* Build configuration list for PBXNativeTarget "HRLAlgorithms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5C9B3AAD1148458FDB3EB06FD55DAB69 /* Debug */,
-				102F616911DFB8B3E8B0D2536D633421 /* Release */,
+				61202ABFEEAD6DB76B940C1BDE41EBC6 /* Debug */,
+				B14E74BBAE61EF06B1F9CD94F4B23EAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

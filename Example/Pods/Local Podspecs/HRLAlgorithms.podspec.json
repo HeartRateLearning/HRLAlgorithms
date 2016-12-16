@@ -18,5 +18,53 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HRLAlgorithms/Classes/**/*"
+  "subspecs": [
+    {
+      "name": "K-NN",
+      "source_files": "HRLAlgorithms/Classes/K-NN/**/*",
+      "dependencies": {
+        "HRLAlgorithms/Common": [
+
+        ],
+        "HRLAlgorithms/LearnKit/K-NN": [
+
+        ]
+      }
+    },
+    {
+      "name": "Common",
+      "source_files": "HRLAlgorithms/Classes/Common/**/*"
+    },
+    {
+      "name": "LearnKit",
+      "requires_arc": false,
+      "prefix_header_file": "HRLAlgorithms/Submodules/LearnKit/LearnKit/Prefix.pch",
+      "subspecs": [
+        {
+          "name": "K-NN",
+          "source_files": "HRLAlgorithms/Submodules/LearnKit/LearnKit/K-NN/*.{h,m}",
+          "dependencies": {
+            "HRLAlgorithms/LearnKit/Common": [
+
+            ]
+          }
+        },
+        {
+          "name": "Common",
+          "source_files": [
+            "HRLAlgorithms/Submodules/LearnKit/fmincg/*.{h,m}",
+            "HRLAlgorithms/Submodules/LearnKit/LearnKit/Accelerate Extensions/*.{h,m}",
+            "HRLAlgorithms/Submodules/LearnKit/LearnKit/Config.h",
+            "HRLAlgorithms/Submodules/LearnKit/LearnKit/Core/*.{h,m}",
+            "HRLAlgorithms/Submodules/LearnKit/LearnKit/Optimization/*.{h,m}",
+            "HRLAlgorithms/Submodules/LearnKit/liblbfgs/include/*.h",
+            "HRLAlgorithms/Submodules/LearnKit/liblbfgs/lib/*.{h,m}"
+          ],
+          "ios": {
+            "exclude_files": "HRLAlgorithms/Submodules/LearnKit/LearnKit/Core/LNKMatrixImages.{h,m}"
+          }
+        }
+      ]
+    }
+  ]
 }
