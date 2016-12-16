@@ -1,0 +1,6 @@
+use_frameworks!
+target 'HRLAlgorithms_Tests' do
+  pod 'HRLAlgorithms', :path => '../'
+  
+  
+end
