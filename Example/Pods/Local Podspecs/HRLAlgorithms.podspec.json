@@ -33,7 +33,8 @@
     },
     {
       "name": "Common",
-      "source_files": "HRLAlgorithms/Classes/Common/**/*"
+      "source_files": "HRLAlgorithms/Classes/Common/**/*",
+      "private_header_files": "HRLAlgorithms/Classes/Common/HRLMatrix+LNKMatrix.h"
     },
     {
       "name": "LearnKit",
@@ -43,6 +44,7 @@
         {
           "name": "K-NN",
           "source_files": "HRLAlgorithms/Submodules/LearnKit/LearnKit/K-NN/*.{h,m}",
+          "private_header_files": "HRLAlgorithms/Submodules/LearnKit/LearnKit/K-NN/*.h",
           "dependencies": {
             "HRLAlgorithms/LearnKit/Common": [
 
@@ -62,7 +64,8 @@
           ],
           "ios": {
             "exclude_files": "HRLAlgorithms/Submodules/LearnKit/LearnKit/Core/LNKMatrixImages.{h,m}"
-          }
+          },
+          "private_header_files": "HRLAlgorithms/Submodules/LearnKit/**/*.h"
         }
       ]
     }

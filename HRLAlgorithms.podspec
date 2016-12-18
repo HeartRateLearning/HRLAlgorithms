@@ -14,8 +14,6 @@ Wrapper around [LearnKit](https://github.com/mattrajca/LearnKit) to easy its int
 
   s.ios.deployment_target = '8.0'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-
   s.subspec 'K-NN' do |ks|
     ks.source_files = 'HRLAlgorithms/Classes/K-NN/**/*'
 
@@ -25,6 +23,7 @@ Wrapper around [LearnKit](https://github.com/mattrajca/LearnKit) to easy its int
 
   s.subspec 'Common' do |cs|
     cs.source_files = 'HRLAlgorithms/Classes/Common/**/*'
+    cs.private_header_files = 'HRLAlgorithms/Classes/Common/HRLMatrix+LNKMatrix.h'
   end
 
   s.subspec 'LearnKit' do |lks|
@@ -34,6 +33,7 @@ Wrapper around [LearnKit](https://github.com/mattrajca/LearnKit) to easy its int
 
     lks.subspec 'K-NN' do |ks|
       ks.source_files = 'HRLAlgorithms/Submodules/LearnKit/LearnKit/K-NN/*.{h,m}'
+      ks.private_header_files = 'HRLAlgorithms/Submodules/LearnKit/LearnKit/K-NN/*.h'
 
       ks.dependency 'HRLAlgorithms/LearnKit/Common'
     end
@@ -47,6 +47,8 @@ Wrapper around [LearnKit](https://github.com/mattrajca/LearnKit) to easy its int
                         'HRLAlgorithms/Submodules/LearnKit/liblbfgs/include/*.h',
                         'HRLAlgorithms/Submodules/LearnKit/liblbfgs/lib/*.{h,m}'
       cs.ios.exclude_files = 'HRLAlgorithms/Submodules/LearnKit/LearnKit/Core/LNKMatrixImages.{h,m}'
+      cs.private_header_files = 'HRLAlgorithms/Submodules/LearnKit/**/*.h'
     end
   end
 end
+
