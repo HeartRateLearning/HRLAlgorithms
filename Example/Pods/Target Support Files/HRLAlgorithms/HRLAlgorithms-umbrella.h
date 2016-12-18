@@ -1,5 +1,8 @@
 #import <UIKit/UIKit.h>
 
+#import "HRLMatrixSource.h"
+#import "HRLTypes.h"
+#import "HRLKNNClassifier.h"
 #import "fmincg.h"
 #import "LNKAccelerate.h"
 #import "LNKAccelerateGradient.h"
