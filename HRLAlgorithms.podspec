@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'HRLAlgorithms'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Wrapper around LearnKit.'
 
   s.description      = <<-DESC
@@ -10,7 +10,9 @@ Wrapper around [LearnKit](https://github.com/mattrajca/LearnKit) to easy its int
   s.homepage         = 'https://github.com/HeartRateLearning/HRLAlgorithms'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Enrique de la Torre' => 'indisoluble_dev@me.com' }
-  s.source           = { :git => 'https://github.com/HeartRateLearning/HRLAlgorithms.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/HeartRateLearning/HRLAlgorithms.git',
+                         :tag => s.version.to_s,
+                         :submodules => true }
 
   s.ios.deployment_target = '8.0'
 
