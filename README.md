@@ -1,7 +1,9 @@
 # HRLAlgorithms
 
+[![CI Status](http://img.shields.io/travis/HeartRateLearning/HRLAlgorithms.svg?style=flat)](https://travis-ci.org/HeartRateLearning/HRLAlgorithms)
+[![codecov.io](https://codecov.io/github/HeartRateLearning/HRLAlgorithms/coverage.svg?branch=master)](https://codecov.io/github/HeartRateLearning/HRLAlgorithms?branch=master)
 [![Version](https://img.shields.io/cocoapods/v/HRLAlgorithms.svg?style=flat)](http://cocoapods.org/pods/HRLAlgorithms)
-[![License](https://img.shields.io/cocoapods/l/HRLAlgorithms.svg?style=flat)](http://cocoapods.org/pods/HRLAlgorithms)
+[![Docs](https://img.shields.io/cocoapods/metrics/doc-percent/HRLAlgorithms.svg)](http://cocoadocs.org/docsets/HRLAlgorithms)
 
 Wrapper around [LearnKit](https://github.com/mattrajca/LearnKit) to easy its integration
 in Swift CocoaPods.
