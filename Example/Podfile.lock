@@ -1,18 +1,5 @@
 PODS:
-  - HRLAlgorithms (0.1.0):
-    - HRLAlgorithms/Common (= 0.1.0)
-    - HRLAlgorithms/K-NN (= 0.1.0)
-    - HRLAlgorithms/LearnKit (= 0.1.0)
-  - HRLAlgorithms/Common (0.1.0)
-  - HRLAlgorithms/K-NN (0.1.0):
-    - HRLAlgorithms/Common
-    - HRLAlgorithms/LearnKit/K-NN
-  - HRLAlgorithms/LearnKit (0.1.0):
-    - HRLAlgorithms/LearnKit/Common (= 0.1.0)
-    - HRLAlgorithms/LearnKit/K-NN (= 0.1.0)
-  - HRLAlgorithms/LearnKit/Common (0.1.0)
-  - HRLAlgorithms/LearnKit/K-NN (0.1.0):
-    - HRLAlgorithms/LearnKit/Common
+  - HRLAlgorithms (0.1.0)
 
 DEPENDENCIES:
   - HRLAlgorithms (from `../`)
@@ -22,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HRLAlgorithms: 2b10b42154015edce83941f4466b6df88bd07a34
+  HRLAlgorithms: 966a42b3a4de1a47c67513d9cf6b949c51833120
 
 PODFILE CHECKSUM: 5f5611bcf7bb22a90312f0e215bbb97f2263a89f
 

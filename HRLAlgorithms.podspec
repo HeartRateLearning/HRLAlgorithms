@@ -14,41 +14,30 @@ Wrapper around [LearnKit](https://github.com/mattrajca/LearnKit) to easy its int
 
   s.ios.deployment_target = '8.0'
 
-  s.subspec 'K-NN' do |ks|
-    ks.source_files = 'HRLAlgorithms/Classes/K-NN/**/*'
+  s.prefix_header_file = 'HRLAlgorithms/Submodules/LearnKit/LearnKit/Prefix.pch'
 
-    ks.dependency 'HRLAlgorithms/Common'
-    ks.dependency 'HRLAlgorithms/LearnKit/K-NN'
-  end
+  s.source_files = 'HRLAlgorithms/Classes/**/*.{h,m}',
+                   'HRLAlgorithms/Submodules/LearnKit/fmincg/*.{h,m}',
+                   'HRLAlgorithms/Submodules/LearnKit/LearnKit/Accelerate Extensions/*.{h,m}',
+                   'HRLAlgorithms/Submodules/LearnKit/LearnKit/Config.h',
+                   'HRLAlgorithms/Submodules/LearnKit/LearnKit/Core/*.{h,m}',
+                   'HRLAlgorithms/Submodules/LearnKit/LearnKit/K-NN/*.{h,m}',
+                   'HRLAlgorithms/Submodules/LearnKit/LearnKit/Optimization/*.{h,m}',
+                   'HRLAlgorithms/Submodules/LearnKit/liblbfgs/include/*.h',
+                   'HRLAlgorithms/Submodules/LearnKit/liblbfgs/lib/*.{h,m}'
 
-  s.subspec 'Common' do |cs|
-    cs.source_files = 'HRLAlgorithms/Classes/Common/**/*'
-    cs.private_header_files = 'HRLAlgorithms/Classes/Common/HRLMatrix+LNKMatrix.h'
-  end
+  s.exclude_files = 'HRLAlgorithms/Submodules/LearnKit/LearnKit/Core/LNKMatrixImages.{h,m}'
 
-  s.subspec 'LearnKit' do |lks|
-    lks.requires_arc = false
+  s.private_header_files = 'HRLAlgorithms/Classes/Common/HRLMatrix+LNKMatrix.h',
+                           'HRLAlgorithms/Submodules/LearnKit/fmincg/*.h',
+                           'HRLAlgorithms/Submodules/LearnKit/LearnKit/Accelerate Extensions/*.h',
+                           'HRLAlgorithms/Submodules/LearnKit/LearnKit/Config.h',
+                           'HRLAlgorithms/Submodules/LearnKit/LearnKit/Core/*.h',
+                           'HRLAlgorithms/Submodules/LearnKit/LearnKit/K-NN/*.h',
+                           'HRLAlgorithms/Submodules/LearnKit/LearnKit/Optimization/*.h',
+                           'HRLAlgorithms/Submodules/LearnKit/liblbfgs/include/*.h',
+                           'HRLAlgorithms/Submodules/LearnKit/liblbfgs/lib/*.h'
 
-    lks.prefix_header_file = 'HRLAlgorithms/Submodules/LearnKit/LearnKit/Prefix.pch'
+  s.requires_arc = 'HRLAlgorithms/Classes/**/*.m'
 
-    lks.subspec 'K-NN' do |ks|
-      ks.source_files = 'HRLAlgorithms/Submodules/LearnKit/LearnKit/K-NN/*.{h,m}'
-      ks.private_header_files = 'HRLAlgorithms/Submodules/LearnKit/LearnKit/K-NN/*.h'
-
-      ks.dependency 'HRLAlgorithms/LearnKit/Common'
-    end
-
-    lks.subspec 'Common' do |cs|
-      cs.source_files = 'HRLAlgorithms/Submodules/LearnKit/fmincg/*.{h,m}',
-                        'HRLAlgorithms/Submodules/LearnKit/LearnKit/Accelerate Extensions/*.{h,m}',
-                        'HRLAlgorithms/Submodules/LearnKit/LearnKit/Config.h',
-                        'HRLAlgorithms/Submodules/LearnKit/LearnKit/Core/*.{h,m}',
-                        'HRLAlgorithms/Submodules/LearnKit/LearnKit/Optimization/*.{h,m}',
-                        'HRLAlgorithms/Submodules/LearnKit/liblbfgs/include/*.h',
-                        'HRLAlgorithms/Submodules/LearnKit/liblbfgs/lib/*.{h,m}'
-      cs.ios.exclude_files = 'HRLAlgorithms/Submodules/LearnKit/LearnKit/Core/LNKMatrixImages.{h,m}'
-      cs.private_header_files = 'HRLAlgorithms/Submodules/LearnKit/**/*.h'
-    end
-  end
 end
-
