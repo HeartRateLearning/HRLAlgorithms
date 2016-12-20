@@ -35,12 +35,12 @@ static const HRLValue kDefaultClass = 0;
     self = [super init];
     if (self)
     {
-        NSMutableArray<NSMutableArray<NSNumber *> *> *rows = [[NSMutableArray alloc] initWithCapacity:rowCount];
-        NSMutableArray<NSNumber *> *classes = [[NSMutableArray alloc] initWithCapacity:rowCount];
+        NSMutableArray<NSMutableArray<NSNumber *> *> *rows = [[NSMutableArray alloc] initWithCapacity:(NSUInteger)rowCount];
+        NSMutableArray<NSNumber *> *classes = [[NSMutableArray alloc] initWithCapacity:(NSUInteger)rowCount];
 
         for (HRLSize i = 0; i < rowCount; i++)
         {
-            NSMutableArray<NSNumber *> *columns = [[NSMutableArray alloc] initWithCapacity:columnCount];
+            NSMutableArray<NSNumber *> *columns = [[NSMutableArray alloc] initWithCapacity:(NSUInteger)columnCount];
             for (HRLSize j = 0; j < columnCount; j++)
             {
                 [columns addObject:@(FALSE)];
@@ -72,14 +72,14 @@ static const HRLValue kDefaultClass = 0;
 
 - (HRLValue)valueAtRow:(HRLSize)row column:(HRLSize)column
 {
-    self.visitedValues[row][column] = @(TRUE);
+    self.visitedValues[(NSUInteger)row][(NSUInteger)column] = @(TRUE);
 
     return kDefaultValue;
 }
 
 - (HRLClass)classForRow:(HRLSize)row
 {
-    self.visitedClasses[row] = @(TRUE);
+    self.visitedClasses[(NSUInteger)row] = @(TRUE);
 
     return kDefaultClass;
 }
@@ -88,12 +88,12 @@ static const HRLValue kDefaultClass = 0;
 
 - (BOOL)wasVisitedValueAtRow:(HRLSize)row column:(HRLSize)column
 {
-    return [self.visitedValues[row][column] boolValue];
+    return [self.visitedValues[(NSUInteger)row][(NSUInteger)column] boolValue];
 }
 
 - (BOOL)wasVisitedClassAtRow:(HRLSize)row
 {
-    return [self.visitedClasses[row] boolValue];
+    return [self.visitedClasses[(NSUInteger)row] boolValue];
 }
 
 @end

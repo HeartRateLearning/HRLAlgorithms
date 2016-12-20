@@ -31,7 +31,7 @@ static const HRLValue kDefaultValue = 0;
     self = [super init];
     if (self)
     {
-        _visitedValues = [[NSMutableArray alloc] initWithCapacity:count];
+        _visitedValues = [[NSMutableArray alloc] initWithCapacity:(NSUInteger)count];
         for (HRLSize i = 0; i < count; i++)
         {
             [_visitedValues addObject:@(FALSE)];
@@ -50,7 +50,7 @@ static const HRLValue kDefaultValue = 0;
 
 - (HRLValue)valueAtIndex:(HRLSize)index
 {
-    self.visitedValues[index] = @(TRUE);
+    self.visitedValues[(NSUInteger)index] = @(TRUE);
 
     return kDefaultValue;
 }
@@ -59,7 +59,7 @@ static const HRLValue kDefaultValue = 0;
 
 - (BOOL)wasVisitedValueAtIndex:(HRLSize)index
 {
-    return [self.visitedValues[index] boolValue];
+    return [self.visitedValues[(NSUInteger)index] boolValue];
 }
 
 @end
