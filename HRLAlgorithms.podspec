@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name             = 'HRLAlgorithms'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Wrapper around LearnKit.'
 
   s.description      = <<-DESC
-Wrapper around [LearnKit](https://github.com/mattrajca/LearnKit) to easy its integration with Swift code.
+Wrapper around [LearnKit](https://github.com/mattrajca/LearnKit) to easy its integration in Swift CocoaPods.
                        DESC
 
   s.homepage         = 'https://github.com/HeartRateLearning/HRLAlgorithms'
@@ -14,6 +14,7 @@ Wrapper around [LearnKit](https://github.com/mattrajca/LearnKit) to easy its int
                          :tag => s.version.to_s,
                          :submodules => true }
 
+  s.platform = :ios
   s.ios.deployment_target = '8.0'
 
   s.prefix_header_file = 'HRLAlgorithms/Submodules/LearnKit/LearnKit/Prefix.pch'
