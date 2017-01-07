@@ -2,7 +2,7 @@
 //  HRLMatrix.h
 //  Pods
 //
-//  Created by Enrique de la Torre (dev) on 18/12/2016.
+//  Created by Enrique de la Torre (dev) on 07/01/2017.
 //
 //
 
@@ -10,36 +10,43 @@
 
 #import "HRLTypes.h"
 
-@protocol HRLMatrixDataSource;
-
-/**
- Data type of the matrices used to train & test classifiers.
- */
-
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HRLMatrix : NSObject
+/**
+ To train & test a classifier, you have to provide an instance that
+ conforms to this protocol.
+ */
+@protocol HRLMatrix <NSObject>
 
 /**
- Matrices are initialized as 1x1 identity matrices. Use this method to fill
- the matrix with new data.
-
- @param dataSource Provides the data that the matrix will use to re-shape and fill itself
+ @return Number of rows
  */
-- (void)fillWithDataSource:(id<HRLMatrixDataSource>)dataSource;
+- (HRLSize)rowCount;
 
 /**
- In most cases, once you have a dataset, you will want to split it in a training set
- (to train your classifier) and a test set (to estimate its accuracy). Once you have loaded
- the dataset into a matrix, use this method to obtain a training & test matrix/set.
-
- @param trainingMatrix Output param with the training set
- @param testMatrix Output param with the test set
- @param trainingBias Between 0.0 and 1.0, it specifies the percentage of the matrix that has to be copied into the trainingMatrix
+ @return Number of columns
  */
-- (void)splitIntoTrainingMatrix:(HRLMatrix *__nullable *__nonnull)trainingMatrix
-                     testMatrix:(HRLMatrix *__nullable *__nonnull)testMatrix
-                   trainingBias:(HRLFloat)trainingBias;
+- (HRLSize)columnCount;
+
+/**
+ Given a position (row, column), this method returns the value at that position.
+
+ @param row Index of a row
+ @param column Index of a column
+
+ @return Value at position (row, column)
+ */
+- (HRLValue)valueAtRow:(HRLSize)row column:(HRLSize)column;
+
+/**
+ Given the index of a row, this method returns the class of that row.
+ To say in another way, it returns the category or group where the row fits.
+
+ @param row Index of a row
+
+ @return Class (as an integer) of the row
+ */
+- (HRLClass)classForRow:(HRLSize)row;
 
 @end
 

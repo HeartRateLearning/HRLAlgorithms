@@ -1,26 +1,26 @@
 //
-//  HRLTestDoubleMatrixDataSource.m
+//  HRLTestDoubleMatrix.m
 //  HRLAlgorithms
 //
-//  Created by Enrique de la Torre (dev) on 18/12/2016.
-//  Copyright © 2016 Enrique de la Torre. All rights reserved.
+//  Created by Enrique de la Torre (dev) on 07/01/2017.
+//  Copyright © 2017 Enrique de la Torre. All rights reserved.
 //
 
-#import "HRLTestDoubleMatrixDataSource.h"
+#import "HRLTestDoubleMatrix.h"
 
 static const HRLSize kDefaultRowCount = 2;
 static const HRLSize kDefaultColumnCount = 2;
 static const HRLValue kDefaultValue = 0;
 static const HRLValue kDefaultClass = 0;
 
-@interface HRLTestDoubleMatrixDataSource()
+@interface HRLTestDoubleMatrix ()
 
 @property (nonatomic) NSMutableArray<NSMutableArray<NSNumber *> *> *visitedValues;
 @property (nonatomic) NSMutableArray<NSNumber *> *visitedClasses;
 
 @end
 
-@implementation HRLTestDoubleMatrixDataSource
+@implementation HRLTestDoubleMatrix
 
 #pragma mark - Init
 
@@ -58,7 +58,7 @@ static const HRLValue kDefaultClass = 0;
     return self;
 }
 
-#pragma mark - HRLMatrixDataSource methods
+#pragma mark - HRLMatrix methods
 
 - (HRLSize)rowCount
 {

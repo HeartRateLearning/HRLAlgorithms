@@ -12,8 +12,6 @@
 		0B2DE8352A3C59F6E0A241D194228012 /* Pods-HRLAlgorithms_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F53E0D474DFF7FBE6DD2AC3CA025B05C /* Pods-HRLAlgorithms_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0EDED3EBD240E07939106A6B0970B65A /* LNKMatrixExporting.m in Sources */ = {isa = PBXBuildFile; fileRef = A95E6B40055526514148A2522E822757 /* LNKMatrixExporting.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1030B2078E132257DAEAB4C25248C329 /* LNKConfusionMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E1782B4BA97B619E8585DC28A834730 /* LNKConfusionMatrix.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		1597320FDA3E9019FBA66BB3AEEBB5EA /* HRLMatrixDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 9967364E83414C01C291D3D1EA497CF3 /* HRLMatrixDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		19AAD8D8040BB88615AC7E8C70E88CB4 /* HRLKNNClassifier.m in Sources */ = {isa = PBXBuildFile; fileRef = B65C5CF6F2A7DF2BFC9F7F74B4E0530A /* HRLKNNClassifier.m */; };
 		1C2BF5CC97BB615AE6E778C225BB9193 /* LNKCSVColumnRule.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ACDCA76920E24FC9CBAECB791D7ACD /* LNKCSVColumnRule.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1E69AED2149867C3AB12DDD2BE25AA00 /* LNKFastFloatQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 242C73DFF04222735F94B466CEB06EC0 /* LNKFastFloatQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		211047B6B89736BF6E2F282D82768513 /* LNKUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 86184086319B97D28B0D49F2C3DBE6CF /* LNKUtilities.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -33,8 +31,6 @@
 		5EEEB10B243AC721CABDE9631BE854B7 /* LNKMatrixPCA.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CA7581E9ABD7656F8CFE846CB7979D2 /* LNKMatrixPCA.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		6202D05CC166E91903B426F453216B67 /* LNKMatrixCSV.m in Sources */ = {isa = PBXBuildFile; fileRef = DF05E36F6BB2BB06B4317E84F11B6126 /* LNKMatrixCSV.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		62FCF58123DB6F9052B03BDCB321F5B4 /* LNKClasses.h in Headers */ = {isa = PBXBuildFile; fileRef = 27F3935A42BE0F6430C07A091878F680 /* LNKClasses.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		69762443B841090FFC11104FDF2BA06A /* HRLMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EDAD305FBAB29FCAD86BD9A95BF265 /* HRLMatrix.m */; };
-		6B78D3D4D7399C4A7EC5961C56398A49 /* HRLMatrix+LNKMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 481FBF7223672A4DB80037FC9FB64D97 /* HRLMatrix+LNKMatrix.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		6DC4FFC90C19B6B8F920F70A45BB695C /* LNKOptimizationAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = A8154A31D4DD5960E8357DFD528424D0 /* LNKOptimizationAlgorithm.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		7290E4431EAC743DB6A34FEEA966D023 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		72C27D2EC2829D7A3D12BBEE4CF59B21 /* LNKMatrixPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 32375339729FA536F47C8B5F3D27B953 /* LNKMatrixPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -68,7 +64,6 @@
 		DF0A68B0DA457256EB3877894AB7E033 /* LNKMemoryBufferManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 214489F202757E5E481547727BEBB490 /* LNKMemoryBufferManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		E167A2D7ABB20703A8023EF892A38967 /* arithmetic_sse_double.h in Headers */ = {isa = PBXBuildFile; fileRef = 568C3665E9ED2DF9FA7FC52425528CF7 /* arithmetic_sse_double.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		E433A142342B46A24FBB0FBDA6EF1EE1 /* LNKAccelerateGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = A448A4F4DDC10E2DDE28B0D223408CB7 /* LNKAccelerateGradient.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		E5A2CF4E79B008B1F5513E4B7452F4DE /* HRLKNNClassifier.h in Headers */ = {isa = PBXBuildFile; fileRef = F692263B9E95B535D08D6C2CABCD01B9 /* HRLKNNClassifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA5CB5C42BB04180BA545C42CB2B951F /* LNKTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 0954CF2E258C3E72DE2D12B8C61605BC /* LNKTypes.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F02332DAEFACEC9C6B76CF31FD2D8004 /* _LNKKNNClassifierAC.h in Headers */ = {isa = PBXBuildFile; fileRef = DE616CB08E4A76F651E6B5C77CC549C4 /* _LNKKNNClassifierAC.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F041A16CBDF3AFD7C3D5A6FBE58FD99B /* HRLAlgorithms-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6224148F84951D0AEDE5EC3D88BA58CC /* HRLAlgorithms-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -79,6 +74,19 @@
 		F8760132A891A175945A30B6BF918BF7 /* LNKMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = E090B6F5064409E0D587988C5A865B76 /* LNKMatrix.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		FBA0184F93737FD6F579BBC8D59D3D47 /* lbfgs.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D784400F44269C81D37BC5801BCAEE /* lbfgs.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		FD3146FFD237B83E1E049CE0BBE0CFA4 /* LNKFastObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 999505A56414B6188703F557144CDDA0 /* LNKFastObjects.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF59C9CD1E215F9000D845F1 /* HRLLearnKitMatrixFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = FF59C9C91E215F9000D845F1 /* HRLLearnKitMatrixFactory.h */; };
+		FF59C9CE1E215F9000D845F1 /* HRLLearnKitMatrixFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = FF59C9CA1E215F9000D845F1 /* HRLLearnKitMatrixFactory.m */; };
+		FF59C9CF1E215F9000D845F1 /* LNKMatrix+HRLMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = FF59C9CB1E215F9000D845F1 /* LNKMatrix+HRLMatrix.h */; };
+		FF59C9D01E215F9000D845F1 /* LNKMatrix+HRLMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = FF59C9CC1E215F9000D845F1 /* LNKMatrix+HRLMatrix.m */; };
+		FF59C9D51E215F9900D845F1 /* HRLMatrixSplitter.h in Headers */ = {isa = PBXBuildFile; fileRef = FF59C9D11E215F9900D845F1 /* HRLMatrixSplitter.h */; };
+		FF59C9D61E215F9900D845F1 /* HRLMatrixSplitter.m in Sources */ = {isa = PBXBuildFile; fileRef = FF59C9D21E215F9900D845F1 /* HRLMatrixSplitter.m */; };
+		FF59C9D71E215F9900D845F1 /* HRLSplittedMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = FF59C9D31E215F9900D845F1 /* HRLSplittedMatrix.h */; };
+		FF59C9D81E215F9900D845F1 /* HRLSplittedMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = FF59C9D41E215F9900D845F1 /* HRLSplittedMatrix.m */; };
+		FF59C9DC1E215FC300D845F1 /* LNKKNNClassifier+HRLTrainedKNNClassifier.h in Headers */ = {isa = PBXBuildFile; fileRef = FF59C9DA1E215FC300D845F1 /* LNKKNNClassifier+HRLTrainedKNNClassifier.h */; };
+		FF59C9DD1E215FC300D845F1 /* LNKKNNClassifier+HRLTrainedKNNClassifier.m in Sources */ = {isa = PBXBuildFile; fileRef = FF59C9DB1E215FC300D845F1 /* LNKKNNClassifier+HRLTrainedKNNClassifier.m */; };
+		FF59C9E11E215FCE00D845F1 /* HRLTrainedKNNClassifier.h in Headers */ = {isa = PBXBuildFile; fileRef = FF59C9DE1E215FCE00D845F1 /* HRLTrainedKNNClassifier.h */; };
+		FF59C9E21E215FCE00D845F1 /* HRLTrainedKNNClassifierFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = FF59C9DF1E215FCE00D845F1 /* HRLTrainedKNNClassifierFactory.h */; };
+		FF59C9E31E215FCE00D845F1 /* HRLTrainedKNNClassifierFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = FF59C9E01E215FCE00D845F1 /* HRLTrainedKNNClassifierFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,11 +107,10 @@
 		0CA7581E9ABD7656F8CFE846CB7979D2 /* LNKMatrixPCA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKMatrixPCA.h; sourceTree = "<group>"; };
 		115FA8D917F521E278ADF41804AC7CE8 /* LNKMatrixExporting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKMatrixExporting.h; sourceTree = "<group>"; };
 		12816DE6463E24C32CC9A4D4B895CE5B /* fmincg.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = fmincg.m; sourceTree = "<group>"; };
-		15C76ECB63EEF0CA32E5D00D8523971F /* HRLAlgorithms.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HRLAlgorithms.modulemap; sourceTree = "<group>"; };
+		15C76ECB63EEF0CA32E5D00D8523971F /* HRLAlgorithms.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HRLAlgorithms.modulemap; sourceTree = "<group>"; };
 		17AB3100B0EEE9DC2A7517A782D82E3D /* lbfgs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = lbfgs.m; sourceTree = "<group>"; };
 		214489F202757E5E481547727BEBB490 /* LNKMemoryBufferManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKMemoryBufferManager.h; sourceTree = "<group>"; };
 		242C73DFF04222735F94B466CEB06EC0 /* LNKFastFloatQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKFastFloatQueue.m; sourceTree = "<group>"; };
-		27EDAD305FBAB29FCAD86BD9A95BF265 /* HRLMatrix.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HRLMatrix.m; sourceTree = "<group>"; };
 		27F3935A42BE0F6430C07A091878F680 /* LNKClasses.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKClasses.h; sourceTree = "<group>"; };
 		280811F6C139E0628A72A63C441B3056 /* LNKClasses.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKClasses.m; sourceTree = "<group>"; };
 		28B4C92A9C035DFE89E94F5E2D3A2B25 /* LNKPredictor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKPredictor.m; sourceTree = "<group>"; };
@@ -114,16 +121,15 @@
 		37C6524F5F7CEFCB22B59D962C5B7EC4 /* HRLAlgorithms-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HRLAlgorithms-prefix.pch"; sourceTree = "<group>"; };
 		3FE27E4EAA38B38D2E3D17133A81881C /* LNKCSVColumnRule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKCSVColumnRule.h; sourceTree = "<group>"; };
 		40EE310D5A68A48CFE63F3F3C06D5F47 /* LNKMatrixCSV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKMatrixCSV.h; sourceTree = "<group>"; };
-		429F86605B6C6D08B2C58E2E76E2D421 /* HRLAlgorithms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HRLAlgorithms.framework; path = HRLAlgorithms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		429F86605B6C6D08B2C58E2E76E2D421 /* HRLAlgorithms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HRLAlgorithms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46B13420ACA4A00D5D14E370A2C03D59 /* LNKConfusionMatrix.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKConfusionMatrix.m; sourceTree = "<group>"; };
-		481FBF7223672A4DB80037FC9FB64D97 /* HRLMatrix+LNKMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HRLMatrix+LNKMatrix.h"; sourceTree = "<group>"; };
 		4E1782B4BA97B619E8585DC28A834730 /* LNKConfusionMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKConfusionMatrix.h; sourceTree = "<group>"; };
 		568C3665E9ED2DF9FA7FC52425528CF7 /* arithmetic_sse_double.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = arithmetic_sse_double.h; sourceTree = "<group>"; };
 		5986EC7F41D1C3EE55792270DB31AD46 /* LNKMatrix.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKMatrix.m; sourceTree = "<group>"; };
 		5F5F0F2F988D93601F3C59738C2667B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FC5CA5B9D74916DBD18E819DC673FE1 /* Pods-HRLAlgorithms_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HRLAlgorithms_Tests-dummy.m"; sourceTree = "<group>"; };
 		6224148F84951D0AEDE5EC3D88BA58CC /* HRLAlgorithms-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HRLAlgorithms-umbrella.h"; sourceTree = "<group>"; };
-		630A9E36ABDC3114B69B8C1156DB87A8 /* Pods_HRLAlgorithms_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HRLAlgorithms_Tests.framework; path = "Pods-HRLAlgorithms_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		630A9E36ABDC3114B69B8C1156DB87A8 /* Pods_HRLAlgorithms_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HRLAlgorithms_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D784400F44269C81D37BC5801BCAEE /* lbfgs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lbfgs.h; sourceTree = "<group>"; };
 		67BF05E934803BA7B46A234D1821FB2C /* LNKAccelerate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKAccelerate.m; sourceTree = "<group>"; };
 		6BDA7F96D19822F97A6797DE8F7E9684 /* arithmetic_sse_float.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = arithmetic_sse_float.h; sourceTree = "<group>"; };
@@ -136,8 +142,7 @@
 		8768A9BC5F7A26ED7021D4AE378E9DB3 /* HRLTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HRLTypes.h; sourceTree = "<group>"; };
 		8D545715FA0690DA1472EF9F272FDD11 /* LNKGoldenSectionSearch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKGoldenSectionSearch.m; sourceTree = "<group>"; };
 		91C904410152B7A9648F7A7F16AEAA2C /* LNKKNNClassifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKKNNClassifier.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9967364E83414C01C291D3D1EA497CF3 /* HRLMatrixDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HRLMatrixDataSource.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		999505A56414B6188703F557144CDDA0 /* LNKFastObjects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKFastObjects.m; sourceTree = "<group>"; };
 		A448A4F4DDC10E2DDE28B0D223408CB7 /* LNKAccelerateGradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKAccelerateGradient.h; sourceTree = "<group>"; };
 		A5569F8CAF8C772D21B72A2B85939BCB /* LNKOptimization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKOptimization.m; sourceTree = "<group>"; };
@@ -149,7 +154,6 @@
 		A95E6B40055526514148A2522E822757 /* LNKMatrixExporting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKMatrixExporting.m; sourceTree = "<group>"; };
 		AAD3254F619A7451088C01EA89104628 /* HRLAlgorithms.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HRLAlgorithms.xcconfig; sourceTree = "<group>"; };
 		AC1D3BDFBCDFF625A94D458C6E9BB15D /* LNKClassifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKClassifier.h; sourceTree = "<group>"; };
-		B65C5CF6F2A7DF2BFC9F7F74B4E0530A /* HRLKNNClassifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HRLKNNClassifier.m; sourceTree = "<group>"; };
 		B7FF292E24B77DE8F8C8FB56CB27CE0B /* LNKPredictor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKPredictor.h; sourceTree = "<group>"; };
 		B9A6859396EAF3E4118167E778B376B1 /* LNKHillClimbingSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKHillClimbingSearch.h; sourceTree = "<group>"; };
 		C52ADE276CD77A3D8096BC0247C48072 /* LNKMemoryBufferManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKMemoryBufferManager.m; sourceTree = "<group>"; };
@@ -172,12 +176,24 @@
 		F01CCE3A596245CDFA99C2E5A31ECC3C /* Pods-HRLAlgorithms_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HRLAlgorithms_Tests-resources.sh"; sourceTree = "<group>"; };
 		F396561DCE45CC13D9A4ED26AFB12A74 /* LNKOptimization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKOptimization.h; sourceTree = "<group>"; };
 		F53E0D474DFF7FBE6DD2AC3CA025B05C /* Pods-HRLAlgorithms_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HRLAlgorithms_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F692263B9E95B535D08D6C2CABCD01B9 /* HRLKNNClassifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HRLKNNClassifier.h; sourceTree = "<group>"; };
 		F6CB73844C9A5F6510717917E53D3473 /* Pods-HRLAlgorithms_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HRLAlgorithms_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F767F8F1D307C379735FB7D3E43424D1 /* Pods-HRLAlgorithms_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HRLAlgorithms_Tests.modulemap"; sourceTree = "<group>"; };
+		F767F8F1D307C379735FB7D3E43424D1 /* Pods-HRLAlgorithms_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HRLAlgorithms_Tests.modulemap"; sourceTree = "<group>"; };
 		F9AEAA9C1D32051A3A71DB6E520DBA5F /* LNKConfusionMatrixPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKConfusionMatrixPrivate.h; sourceTree = "<group>"; };
 		FC1E5B7D649AEC150C3EEE5236ABBFC6 /* LNKFastFloatQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LNKFastFloatQueue.h; sourceTree = "<group>"; };
 		FDBCC2DDE3957806344646EF4BBC8F3D /* LNKAccelerateGradient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LNKAccelerateGradient.m; sourceTree = "<group>"; };
+		FF59C9C91E215F9000D845F1 /* HRLLearnKitMatrixFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRLLearnKitMatrixFactory.h; sourceTree = "<group>"; };
+		FF59C9CA1E215F9000D845F1 /* HRLLearnKitMatrixFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRLLearnKitMatrixFactory.m; sourceTree = "<group>"; };
+		FF59C9CB1E215F9000D845F1 /* LNKMatrix+HRLMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LNKMatrix+HRLMatrix.h"; sourceTree = "<group>"; };
+		FF59C9CC1E215F9000D845F1 /* LNKMatrix+HRLMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LNKMatrix+HRLMatrix.m"; sourceTree = "<group>"; };
+		FF59C9D11E215F9900D845F1 /* HRLMatrixSplitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRLMatrixSplitter.h; sourceTree = "<group>"; };
+		FF59C9D21E215F9900D845F1 /* HRLMatrixSplitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRLMatrixSplitter.m; sourceTree = "<group>"; };
+		FF59C9D31E215F9900D845F1 /* HRLSplittedMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRLSplittedMatrix.h; sourceTree = "<group>"; };
+		FF59C9D41E215F9900D845F1 /* HRLSplittedMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRLSplittedMatrix.m; sourceTree = "<group>"; };
+		FF59C9DA1E215FC300D845F1 /* LNKKNNClassifier+HRLTrainedKNNClassifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LNKKNNClassifier+HRLTrainedKNNClassifier.h"; sourceTree = "<group>"; };
+		FF59C9DB1E215FC300D845F1 /* LNKKNNClassifier+HRLTrainedKNNClassifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LNKKNNClassifier+HRLTrainedKNNClassifier.m"; sourceTree = "<group>"; };
+		FF59C9DE1E215FCE00D845F1 /* HRLTrainedKNNClassifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRLTrainedKNNClassifier.h; sourceTree = "<group>"; };
+		FF59C9DF1E215FCE00D845F1 /* HRLTrainedKNNClassifierFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRLTrainedKNNClassifierFactory.h; sourceTree = "<group>"; };
+		FF59C9E01E215FCE00D845F1 /* HRLTrainedKNNClassifierFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRLTrainedKNNClassifierFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,7 +224,6 @@
 				6BDA7F96D19822F97A6797DE8F7E9684 /* arithmetic_sse_float.h */,
 				17AB3100B0EEE9DC2A7517A782D82E3D /* lbfgs.m */,
 			);
-			name = lib;
 			path = lib;
 			sourceTree = "<group>";
 		};
@@ -233,10 +248,11 @@
 		0BD059187B0DE7297793367A61353F92 /* K-NN */ = {
 			isa = PBXGroup;
 			children = (
-				F692263B9E95B535D08D6C2CABCD01B9 /* HRLKNNClassifier.h */,
-				B65C5CF6F2A7DF2BFC9F7F74B4E0530A /* HRLKNNClassifier.m */,
+				FF59C9D91E215FB500D845F1 /* Private */,
+				FF59C9DE1E215FCE00D845F1 /* HRLTrainedKNNClassifier.h */,
+				FF59C9DF1E215FCE00D845F1 /* HRLTrainedKNNClassifierFactory.h */,
+				FF59C9E01E215FCE00D845F1 /* HRLTrainedKNNClassifierFactory.m */,
 			);
-			name = "K-NN";
 			path = "K-NN";
 			sourceTree = "<group>";
 		};
@@ -278,7 +294,6 @@
 				86184086319B97D28B0D49F2C3DBE6CF /* LNKUtilities.h */,
 				36B58651E79BDD4E6B6D33A6EF0604BF /* LNKUtilities.m */,
 			);
-			name = Core;
 			path = Core;
 			sourceTree = "<group>";
 		};
@@ -297,7 +312,6 @@
 				4294EC30118FC9153224CA74FA6C66FF /* include */,
 				070769531C2FC51F0C21739C9AA0A2C8 /* lib */,
 			);
-			name = liblbfgs;
 			path = liblbfgs;
 			sourceTree = "<group>";
 		};
@@ -313,7 +327,6 @@
 				A8154A31D4DD5960E8357DFD528424D0 /* LNKOptimizationAlgorithm.h */,
 				A601431B3540CDFA251B398C0F831C34 /* LNKOptimizationAlgorithm.m */,
 			);
-			name = Optimization;
 			path = Optimization;
 			sourceTree = "<group>";
 		};
@@ -322,7 +335,6 @@
 			children = (
 				65D784400F44269C81D37BC5801BCAEE /* lbfgs.h */,
 			);
-			name = include;
 			path = include;
 			sourceTree = "<group>";
 		};
@@ -331,7 +343,6 @@
 			children = (
 				C35AE7537851F78FB815A4713D28E72B /* LearnKit */,
 			);
-			name = Submodules;
 			path = Submodules;
 			sourceTree = "<group>";
 		};
@@ -341,7 +352,6 @@
 				57B32C2D7F109F300D0CD77155AE8278 /* Classes */,
 				53FB0C9B38DBA961C7E64B183E0C68BC /* Submodules */,
 			);
-			name = HRLAlgorithms;
 			path = HRLAlgorithms;
 			sourceTree = "<group>";
 		};
@@ -351,7 +361,6 @@
 				85AED218BCA7A23F80B81D0440582C91 /* Common */,
 				0BD059187B0DE7297793367A61353F92 /* K-NN */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -381,7 +390,6 @@
 				A448A4F4DDC10E2DDE28B0D223408CB7 /* LNKAccelerateGradient.h */,
 				FDBCC2DDE3957806344646EF4BBC8F3D /* LNKAccelerateGradient.m */,
 			);
-			name = "Accelerate Extensions";
 			path = "Accelerate Extensions";
 			sourceTree = "<group>";
 		};
@@ -399,14 +407,15 @@
 		85AED218BCA7A23F80B81D0440582C91 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				FF59C9C81E215F7C00D845F1 /* Private */,
 				7EF0F508B1CFD1BACDC831F41F2C80AF /* HRLMatrix.h */,
-				27EDAD305FBAB29FCAD86BD9A95BF265 /* HRLMatrix.m */,
-				481FBF7223672A4DB80037FC9FB64D97 /* HRLMatrix+LNKMatrix.h */,
-				9967364E83414C01C291D3D1EA497CF3 /* HRLMatrixDataSource.h */,
+				FF59C9D11E215F9900D845F1 /* HRLMatrixSplitter.h */,
+				FF59C9D21E215F9900D845F1 /* HRLMatrixSplitter.m */,
+				FF59C9D31E215F9900D845F1 /* HRLSplittedMatrix.h */,
+				FF59C9D41E215F9900D845F1 /* HRLSplittedMatrix.m */,
 				8768A9BC5F7A26ED7021D4AE378E9DB3 /* HRLTypes.h */,
 				DE85DB8FFBFE0E29C4B2A01990F5FE03 /* HRLVector.h */,
 			);
-			name = Common;
 			path = Common;
 			sourceTree = "<group>";
 		};
@@ -433,7 +442,6 @@
 				CFFAC6E352E83BF730DF684CF5E901B5 /* LearnKit */,
 				1CCF1EC4665F43FB59423B5B2E188A32 /* liblbfgs */,
 			);
-			name = LearnKit;
 			path = LearnKit;
 			sourceTree = "<group>";
 		};
@@ -446,7 +454,6 @@
 				ECB4D819838571ED2E2FA3C16046D264 /* K-NN */,
 				20BF6294F3774DEFAA3A417A625D7591 /* Optimization */,
 			);
-			name = LearnKit;
 			path = LearnKit;
 			sourceTree = "<group>";
 		};
@@ -456,7 +463,6 @@
 				DA8224031524948411E6BFB2BA553EA0 /* fmincg.h */,
 				12816DE6463E24C32CC9A4D4B895CE5B /* fmincg.m */,
 			);
-			name = fmincg;
 			path = fmincg;
 			sourceTree = "<group>";
 		};
@@ -482,7 +488,6 @@
 				C6CE8B83DF88E98116DE479ACECFE642 /* LNKKNNClassifier.h */,
 				91C904410152B7A9648F7A7F16AEAA2C /* LNKKNNClassifier.m */,
 			);
-			name = "K-NN";
 			path = "K-NN";
 			sourceTree = "<group>";
 		};
@@ -492,6 +497,26 @@
 				71FF5A1F41109A8E3ADCC65DF20433AC /* HRLAlgorithms */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FF59C9C81E215F7C00D845F1 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				FF59C9C91E215F9000D845F1 /* HRLLearnKitMatrixFactory.h */,
+				FF59C9CA1E215F9000D845F1 /* HRLLearnKitMatrixFactory.m */,
+				FF59C9CB1E215F9000D845F1 /* LNKMatrix+HRLMatrix.h */,
+				FF59C9CC1E215F9000D845F1 /* LNKMatrix+HRLMatrix.m */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		FF59C9D91E215FB500D845F1 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				FF59C9DA1E215FC300D845F1 /* LNKKNNClassifier+HRLTrainedKNNClassifier.h */,
+				FF59C9DB1E215FC300D845F1 /* LNKKNNClassifier+HRLTrainedKNNClassifier.m */,
+			);
+			path = Private;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -512,14 +537,15 @@
 				F02332DAEFACEC9C6B76CF31FD2D8004 /* _LNKKNNClassifierAC.h in Headers */,
 				227ACB6A933FE6736C36D11602205B44 /* arithmetic_ansi.h in Headers */,
 				E167A2D7ABB20703A8023EF892A38967 /* arithmetic_sse_double.h in Headers */,
+				FF59C9CD1E215F9000D845F1 /* HRLLearnKitMatrixFactory.h in Headers */,
 				D62C3BE3570ECD23BE9849EDF5EFF553 /* arithmetic_sse_float.h in Headers */,
 				7E23741E5FC53B1BA4F5DE91FEE43EEA /* Config.h in Headers */,
+				FF59C9E21E215FCE00D845F1 /* HRLTrainedKNNClassifierFactory.h in Headers */,
 				9E552474ADE79FE4D1EF0F840757089C /* fmincg.h in Headers */,
 				F041A16CBDF3AFD7C3D5A6FBE58FD99B /* HRLAlgorithms-umbrella.h in Headers */,
-				E5A2CF4E79B008B1F5513E4B7452F4DE /* HRLKNNClassifier.h in Headers */,
-				6B78D3D4D7399C4A7EC5961C56398A49 /* HRLMatrix+LNKMatrix.h in Headers */,
+				FF59C9E11E215FCE00D845F1 /* HRLTrainedKNNClassifier.h in Headers */,
 				B39CB6247FA846A8552742CFE7F5EB53 /* HRLMatrix.h in Headers */,
-				1597320FDA3E9019FBA66BB3AEEBB5EA /* HRLMatrixDataSource.h in Headers */,
+				FF59C9D51E215F9900D845F1 /* HRLMatrixSplitter.h in Headers */,
 				7B800067F696AFD77F3997309DFF78EF /* HRLTypes.h in Headers */,
 				7A9BA3E5A4F4D5D8F2594C4EAAB2994B /* HRLVector.h in Headers */,
 				FBA0184F93737FD6F579BBC8D59D3D47 /* lbfgs.h in Headers */,
@@ -542,9 +568,12 @@
 				5EEEB10B243AC721CABDE9631BE854B7 /* LNKMatrixPCA.h in Headers */,
 				72C27D2EC2829D7A3D12BBEE4CF59B21 /* LNKMatrixPrivate.h in Headers */,
 				DF0A68B0DA457256EB3877894AB7E033 /* LNKMemoryBufferManager.h in Headers */,
+				FF59C9D71E215F9900D845F1 /* HRLSplittedMatrix.h in Headers */,
 				5A6FD4669442B81F8B8E18B65D8917A2 /* LNKOptimization.h in Headers */,
 				6DC4FFC90C19B6B8F920F70A45BB695C /* LNKOptimizationAlgorithm.h in Headers */,
 				94A6325D0CB3FB0E71584E30ABCC4CD2 /* LNKPredictor.h in Headers */,
+				FF59C9CF1E215F9000D845F1 /* LNKMatrix+HRLMatrix.h in Headers */,
+				FF59C9DC1E215FC300D845F1 /* LNKKNNClassifier+HRLTrainedKNNClassifier.h in Headers */,
 				36C591B0001E2A772F27FD48E27B76B5 /* LNKPredictorPrivate.h in Headers */,
 				D26FCBFF4AE246F7B7DA0C73096A406B /* LNKRegularizationConfiguration.h in Headers */,
 				A8759CAECA8700AD0323C55B276137B5 /* LNKTypes.h in Headers */,
@@ -625,12 +654,12 @@
 				50FF801746652A51829B03D7432165F5 /* _LNKKNNClassifierAC.m in Sources */,
 				825B4C03C905A5AEB52D3DF70ACA7515 /* fmincg.m in Sources */,
 				984F3700E19B6B9F32042C6A482CF5D6 /* HRLAlgorithms-dummy.m in Sources */,
-				19AAD8D8040BB88615AC7E8C70E88CB4 /* HRLKNNClassifier.m in Sources */,
-				69762443B841090FFC11104FDF2BA06A /* HRLMatrix.m in Sources */,
 				27C8648ED0872B6027D7D1E6D6C24195 /* lbfgs.m in Sources */,
 				09FC8FCC5AB676F4C7FF26F7FA07A537 /* LNKAccelerate.m in Sources */,
+				FF59C9D61E215F9900D845F1 /* HRLMatrixSplitter.m in Sources */,
 				7B7854EC6E2D608AD19AB301C8FE56B1 /* LNKAccelerateGradient.m in Sources */,
 				B5A6898EC5657096E43DE0DEA02F4C86 /* LNKClasses.m in Sources */,
+				FF59C9D01E215F9000D845F1 /* LNKMatrix+HRLMatrix.m in Sources */,
 				F425F3F8EDA03A4CF8021D13B6E0FF2F /* LNKClassifier.m in Sources */,
 				F65EA27726F0C4DC836B52DC3C4664E3 /* LNKConfusionMatrix.m in Sources */,
 				1C2BF5CC97BB615AE6E778C225BB9193 /* LNKCSVColumnRule.m in Sources */,
@@ -641,10 +670,14 @@
 				572F658E5892528FD41D20DA72E630C3 /* LNKKNNClassifier.m in Sources */,
 				9BA156F71942D050738EEEA0338C0B6F /* LNKMatrix.m in Sources */,
 				6202D05CC166E91903B426F453216B67 /* LNKMatrixCSV.m in Sources */,
+				FF59C9D81E215F9900D845F1 /* HRLSplittedMatrix.m in Sources */,
+				FF59C9CE1E215F9000D845F1 /* HRLLearnKitMatrixFactory.m in Sources */,
+				FF59C9E31E215FCE00D845F1 /* HRLTrainedKNNClassifierFactory.m in Sources */,
 				0EDED3EBD240E07939106A6B0970B65A /* LNKMatrixExporting.m in Sources */,
 				F402CCCE6B85350C0329153BDD5D2515 /* LNKMatrixPCA.m in Sources */,
 				A83CD18B9B9DBB6A4CB18AC694C3A43B /* LNKMemoryBufferManager.m in Sources */,
 				F536B833DE6DFF279A2A709F799F4539 /* LNKOptimization.m in Sources */,
+				FF59C9DD1E215FC300D845F1 /* LNKKNNClassifier+HRLTrainedKNNClassifier.m in Sources */,
 				D4407A57DB9D1DDE69B33685C0457CF7 /* LNKOptimizationAlgorithm.m in Sources */,
 				3E86CF20372B30ACA82AE524AD8FE057 /* LNKPredictor.m in Sources */,
 				D97BE3F22A281B8ED2836DE14C6183FA /* LNKRegularizationConfiguration.m in Sources */,

@@ -1,16 +1,16 @@
 //
-//  HRLTestDoubleMatrixDataSource.h
+//  HRLTestDoubleMatrix.h
 //  HRLAlgorithms
 //
-//  Created by Enrique de la Torre (dev) on 18/12/2016.
-//  Copyright © 2016 Enrique de la Torre. All rights reserved.
+//  Created by Enrique de la Torre (dev) on 07/01/2017.
+//  Copyright © 2017 Enrique de la Torre. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-#import "HRLMatrixDataSource.h"
+#import "HRLMatrix.h"
 
-@interface HRLTestDoubleMatrixDataSource : NSObject <HRLMatrixDataSource>
+@interface HRLTestDoubleMatrix : NSObject <HRLMatrix>
 
 - (instancetype)init;
 - (instancetype)initWithRowCount:(HRLSize)rowCount

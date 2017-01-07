@@ -31,7 +31,8 @@ Wrapper around [LearnKit](https://github.com/mattrajca/LearnKit) to easy its int
 
   s.exclude_files = 'HRLAlgorithms/Submodules/LearnKit/LearnKit/Core/LNKMatrixImages.{h,m}'
 
-  s.private_header_files = 'HRLAlgorithms/Classes/Common/HRLMatrix+LNKMatrix.h',
+  s.private_header_files = 'HRLAlgorithms/Classes/Common/Private/*.h',
+                           'HRLAlgorithms/Classes/K-NN/Private/*.h',
                            'HRLAlgorithms/Submodules/LearnKit/fmincg/*.h',
                            'HRLAlgorithms/Submodules/LearnKit/LearnKit/Accelerate Extensions/*.h',
                            'HRLAlgorithms/Submodules/LearnKit/LearnKit/Config.h',
