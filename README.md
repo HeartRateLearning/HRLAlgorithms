@@ -21,30 +21,28 @@ pod "HRLAlgorithms"
 
 ```objc
 
-#import "HRLKNNClassifier.h"
 #import "HRLMatrix.h"
-#import "HRLMatrixDataSource.h"
+#import "HRLMatrixSplitter.h"
+#import "HRLSplittedMatrix.h"
+#import "HRLTrainedKNNClassifier.h"
+#import "HRLTrainedKNNClassifierFactory.h"
 #import "HRLVector.h"
 
-id<HRLMatrixDataSource> dataSource = ...;
+id<HRLMatrix> matrix = ...;
 
-HRLMatrix *matrix = [[HRLMatrix alloc] init];
-[matrix fillWithDataSource:dataSource];
+id<HRLMatrixSplitter> splitter = [[HRLMatrixSplitter alloc] init];
+HRLSplittedMatrix *splittedMatrix = [splitter splittedMatrixWithMatrix:matrix
+                                                          trainingBias:0.75f];
 
-HRLMatrix *trainingMatrix = nil;
-HRLMatrix *testMatrix = nil;
-[matrix splitIntoTrainingMatrix:&trainingMatrix testMatrix:&testMatrix trainingBias:0.75f];
+id<HRLTrainedKNNClassifierFactory> factory = [[HRLTrainedKNNClassifierFactory alloc] init];
+id<HRLTrainedKNNClassifier> classifier = [factory makeTrainedKNNClassifierWithMatrix:splittedMatrix.trainingMatrix
+                                                                      neighborsCount:5];
 
-HRLKNNClassifier *classifier = [[HRLKNNClassifier alloc] initWithNeighborsCount:5];
-
-[classifier trainClassifierWithMatrix:trainingMatrix];
-
-NSLog(@"Accuracy: %f", [classifier calculateClassificationAccuracyUsingMatrix:testMatrix]);
+NSLog(@"Accuracy: %f", [classifier estimatedAccuracyWithMatrix:splittedMatrix.testMatrix]);
 
 id<HRLVector> vector = ...;
 
-NSLog(@"Predictec class: %lu", (unsigned long)[classifier predictClassForVector:vector]);
-
+NSLog(@"Predicted class: %lu", (unsigned long)[classifier predictedClassForVector:vector]);
 ```
 
 ## License

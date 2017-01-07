@@ -3,10 +3,12 @@
 #endif
 
 #import "HRLMatrix.h"
-#import "HRLMatrixDataSource.h"
+#import "HRLMatrixSplitter.h"
+#import "HRLSplittedMatrix.h"
 #import "HRLTypes.h"
 #import "HRLVector.h"
-#import "HRLKNNClassifier.h"
+#import "HRLTrainedKNNClassifier.h"
+#import "HRLTrainedKNNClassifierFactory.h"
 
 FOUNDATION_EXPORT double HRLAlgorithmsVersionNumber;
 FOUNDATION_EXPORT const unsigned char HRLAlgorithmsVersionString[];

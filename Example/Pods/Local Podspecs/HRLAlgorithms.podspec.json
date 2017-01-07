@@ -1,8 +1,8 @@
 {
   "name": "HRLAlgorithms",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "summary": "Wrapper around LearnKit.",
-  "description": "Wrapper around [LearnKit](https://github.com/mattrajca/LearnKit) to easy its integration with Swift code.",
+  "description": "Wrapper around [LearnKit](https://github.com/mattrajca/LearnKit) to easy its integration in Swift CocoaPods.",
   "homepage": "https://github.com/HeartRateLearning/HRLAlgorithms",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/HeartRateLearning/HRLAlgorithms.git",
-    "tag": "0.1.1",
+    "tag": "1.0.0",
     "submodules": true
   },
   "platforms": {
@@ -33,7 +33,8 @@
   ],
   "exclude_files": "HRLAlgorithms/Submodules/LearnKit/LearnKit/Core/LNKMatrixImages.{h,m}",
   "private_header_files": [
-    "HRLAlgorithms/Classes/Common/HRLMatrix+LNKMatrix.h",
+    "HRLAlgorithms/Classes/Common/Private/*.h",
+    "HRLAlgorithms/Classes/K-NN/Private/*.h",
     "HRLAlgorithms/Submodules/LearnKit/fmincg/*.h",
     "HRLAlgorithms/Submodules/LearnKit/LearnKit/Accelerate Extensions/*.h",
     "HRLAlgorithms/Submodules/LearnKit/LearnKit/Config.h",

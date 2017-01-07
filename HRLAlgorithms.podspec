@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'HRLAlgorithms'
-  s.version          = '0.1.3'
+  s.version          = '1.0.0'
   s.summary          = 'Wrapper around LearnKit.'
 
   s.description      = <<-DESC
