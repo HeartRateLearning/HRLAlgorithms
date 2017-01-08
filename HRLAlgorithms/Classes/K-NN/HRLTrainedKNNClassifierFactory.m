@@ -20,8 +20,8 @@ static const LNKSize kDefaultClassesCount = 2;
 
 - (id<HRLTrainedKNNClassifier>)makeTrainedKNNClassifierWithMatrix:(id<HRLMatrix>)matrix
 {
-    return [[self class] makeTrainedKNNClassifierWithMatrix:matrix
-                                             neighborsCount:kDefaultNeighborsCount];
+    return [self makeTrainedKNNClassifierWithMatrix:matrix
+                                     neighborsCount:kDefaultNeighborsCount];
 }
 
 - (id<HRLTrainedKNNClassifier>)makeTrainedKNNClassifierWithMatrix:(id<HRLMatrix>)matrix
