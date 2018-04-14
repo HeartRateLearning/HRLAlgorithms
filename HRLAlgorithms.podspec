@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name             = 'HRLAlgorithms'
-  s.version          = '1.0.1'
-  s.summary          = 'Wrapper around LearnKit.'
+  s.version          = '1.0.2'
+  s.summary          = '(DEPRECATED) Wrapper around LearnKit.'
 
   s.description      = <<-DESC
-Wrapper around [LearnKit](https://github.com/mattrajca/LearnKit) to easy its integration in Swift CocoaPods.
+(DEPRECATED) Wrapper around [LearnKit](https://github.com/mattrajca/LearnKit) to easy its integration in Swift CocoaPods.
                        DESC
 
   s.homepage         = 'https://github.com/HeartRateLearning/HRLAlgorithms'
